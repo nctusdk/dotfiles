@@ -1,0 +1,144 @@
+2014-03-09 21:53:05	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 21:53:05	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 21:53:05	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 21:53:05	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 21:53:05	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 21:53:05	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 21:53:07	--	Mode #weechat [+cnt]
+2014-03-09 21:53:07	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 21:53:07	dagnachew	hi all
+2014-03-09 21:54:02	dagnachew	is it possible to reorder channels numbers ?
+2014-03-09 21:54:39	Sanchal	dagnachew: You mean buffers?
+2014-03-09 21:54:45	dagnachew	yes
+2014-03-09 21:55:12	Sanchal	/help buffer
+2014-03-09 21:55:27	dagnachew	Sanchal: I have two channels from undernet at #3 and #4 I want these at #9 and #10
+2014-03-09 21:56:10	Sanchal	/help buffer will show you what you need to do.
+2014-03-09 21:58:21	◀▬▬	bizarro_1 (~bizarro_1@80.30.237.111) has quit (Quit: Leaving)
+2014-03-09 21:59:17	dagnachew	Sanchal: :)
+2014-03-09 22:00:33	Sanchal	The built in documentation for weechat is wonderously extensive, /help <thing> is never a bad place to start.
+2014-03-09 22:00:47	nesthib	dagnachew: /buffer move 9
+2014-03-09 22:01:07	nesthib	or alt+↓
+2014-03-09 22:01:53	dagnachew	I already reordered 
+2014-03-09 22:02:20	dagnachew	know what is the command to show time like this 22:00 myne is 2200
+2014-03-09 22:04:52	Sanchal	/iset buffer_time_format  should show you the option you're looking for.
+2014-03-09 22:06:34	Sanchal	If you don't have /iset , I'd highly recommend installing it through /script . It makes finding stuff for /set really easy.
+2014-03-09 22:14:01	▬▬▶	moshR (~steve@c-66-235-3-98.sea.wa.customer.broadstripe.net) has joined #weechat
+2014-03-09 22:20:22	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 22:20:22	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 22:20:22	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 22:20:22	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 22:20:22	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 22:20:22	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 22:20:24	--	Mode #weechat [+cnt]
+2014-03-09 22:20:24	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 22:20:39	◀▬▬	Nastrahl (~Amuria@130.78.207.77.rev.sfr.net) has quit (Read error: Connection reset by peer)
+2014-03-09 22:21:23	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 22:21:23	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 22:21:23	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 22:21:23	--	Channel #weechat: 473 nicks (4 ops, 1 voice, 468 normals)
+2014-03-09 22:21:23	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 22:21:23	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 22:21:25	--	Mode #weechat [+cnt]
+2014-03-09 22:21:25	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 22:21:28	dagnachew	hi all again
+2014-03-09 22:21:34	talisein	welcome back
+2014-03-09 22:22:08	dagnachew	I reordered my buffers but after restarting :( no my buffers are not saved
+2014-03-09 22:22:53	dagnachew	I did buffer swap 3 6 and /save but after restart the reordering did not work
+2014-03-09 22:23:31	talisein	dagnachew: is weechat.look.buffer_auto_renumber off?
+2014-03-09 22:24:45	◀▬▬	PowerSchill (~PowerSchi@2601:0:8d80:113:11c7:b5ca:c3d9:6c44) has quit (Quit: ZNC - http://znc.in)
+2014-03-09 22:27:35	▬▬▶	PowerSchill (~PowerSchi@2601:0:8d80:113:217f:232e:490e:cc6c) has joined #weechat
+2014-03-09 22:40:30	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 22:40:30	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 22:40:30	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 22:40:31	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 22:40:31	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 22:40:31	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 22:40:32	--	Mode #weechat [+cnt]
+2014-03-09 22:40:32	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 22:40:38	dagnachew	talisein: hello 
+2014-03-09 22:40:43	talisein	hi
+2014-03-09 22:40:55	talisein	I take it that didn't work?
+2014-03-09 22:41:18	dagnachew	talisein: I did set weechat look buffer aurennumber on but did not work
+2014-03-09 22:41:51	talisein	so it was "off" the first time you tried?
+2014-03-09 22:42:19	dagnachew	talisein: the first time it was not set
+2014-03-09 22:42:28	talisein	the default is on
+2014-03-09 22:43:08	dagnachew	talisein: why it does not work ?
+2014-03-09 22:43:17	dagnachew	talisein: I do /buffer swap 4 7
+2014-03-09 22:43:17	talisein	did you try with it off?
+2014-03-09 22:43:43	dagnachew	I will try now
+2014-03-09 22:43:49	talisein	ok
+2014-03-09 22:44:06	talisein	i'm not an expert on buffer renumbering but I suspect this setting may influence it
+2014-03-09 22:44:11	dagnachew	hehe it does not work
+2014-03-09 22:46:25	talisein	dagnachew: try /layout store buffers
+2014-03-09 22:46:48	talisein	you can also /layout store mynameforthesebuffers store buffers
+2014-03-09 22:47:26	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 22:47:26	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 22:47:26	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 22:47:26	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 22:47:27	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 22:47:27	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 22:47:28	--	Mode #weechat [+cnt]
+2014-03-09 22:47:28	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 22:47:29	dagnachew	J14
+2014-03-09 22:47:51	dagnachew	talisein: it worked
+2014-03-09 22:47:56	talisein	hurray
+2014-03-09 22:48:00	dagnachew	talisein: tanks for your help
+2014-03-09 22:48:04	talisein	you're welcome
+2014-03-09 22:48:24	dagnachew	talisein: you use znc ?
+2014-03-09 22:48:34	talisein	i do not
+2014-03-09 22:49:16	dagnachew	if we leave our weechat we can reconnect from wherever so znc is not that necessary ?
+2014-03-09 22:49:39	dagnachew	talisein: if you leave your home with your weechat open
+2014-03-09 22:50:07	talisein	absolutely. people only use znc if they expect to receive important notifications over irc 24/7
+2014-03-09 22:50:36	dagnachew	talisein: you use bitlbee ?
+2014-03-09 22:50:52	talisein	i tried it out for a little while several years ago
+2014-03-09 22:51:19	dagnachew	know days people are off of hotmail for sure, yahoo more off , icq maybe 
+2014-03-09 22:51:55	dagnachew	talisein: bitlbee is worhted in my opinion for icq who has more users
+2014-03-09 22:52:18	talisein	sure
+2014-03-09 22:52:29	talisein	i am antisocial, even online myself lol
+2014-03-09 23:04:43	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:04:43	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:04:43	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:04:43	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:04:45	--	Mode #weechat [+cnt]
+2014-03-09 23:04:45	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:04:50	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:04:50	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:06:00	◀▬▬	pdq (CND@unaffiliated/pdq) has quit (Read error: Connection reset by peer)
+2014-03-09 23:08:17	▬▬▶	pdq (CND@208.98.9.84) has joined #weechat
+2014-03-09 23:09:25	dagnachew	talisein: my nick list in the nick buffer is not colored
+2014-03-09 23:11:34	dagnachew	guys how can I put color in the nicklist buffer ?
+2014-03-09 23:11:39	Liam-	What does "if your script is doing something blocking (like fetching URL), you must use function hook_process (or hook_process_hashtable) to not block WeeChat" mean?
+2014-03-09 23:12:06	Liam-	Does that mean if my process involves external content, make it so Weechat doesn't hang?
+2014-03-09 23:12:50	r3m	dagnachew: maybe this script http://weechat.org/scripts/source/colorize_nicks.py.html/
+2014-03-09 23:13:26	r3m	no im wrong
+2014-03-09 23:14:09	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:14:09	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:14:09	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:14:09	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:14:09	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:14:09	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:14:10	--	Mode #weechat [+cnt]
+2014-03-09 23:14:10	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:14:21	dagnachew	r3m: I installed it
+2014-03-09 23:14:39	dagnachew	r3m: but my nicklist is all same color in the buffer
+2014-03-09 23:14:50	r3m	yes im wrong dagnachew
+2014-03-09 23:14:53	r3m	here is the option
+2014-03-09 23:14:58	r3m	/set irc.look.color_nicks_in_nicklist on
+2014-03-09 23:15:25	dagnachew	hello
+2014-03-09 23:15:56	dagnachew	r3m the colors are there but ouch I am grabing nice colors 
+2014-03-09 23:16:21	r3m	dagnachew: you can choose a range of color
+2014-03-09 23:16:50	r3m	here;s mine
+2014-03-09 23:16:54	r3m	/set weechat.color.chat_nick_colors 25,31,37,43,49,61,67,73,79,85,97,103,109,115,121,133,139,145,151,157,163,169,175,181,187,193,199,205,211,217,223,229
+2014-03-09 23:16:58	dagnachew	r3m you have nice colors to suggest ? this one are magneta yellow green ouch, I want solarized style
+2014-03-09 23:17:35	dagnachew	r3m: brb see what are your colors
+2014-03-09 23:17:36	dagnachew	brb
+2014-03-09 23:18:14	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:18:14	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:18:14	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:18:14	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:18:14	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:18:14	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:18:16	--	Mode #weechat [+cnt]
+2014-03-09 23:18:16	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:22:49	--	thevdude is now known as jaybird
+2014-03-09 23:23:01	--	jaybird is now known as thevdude

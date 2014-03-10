@@ -1,0 +1,261 @@
+2014-03-09 22:30:03	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 22:30:03	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 22:30:03	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 22:30:03	--	Channel ##linux: 1218 nicks (0 ops, 0 voices, 1218 normals)
+2014-03-09 22:30:04	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 22:30:04	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 22:30:05	--	Mode ##linux [+CPcnpt]
+2014-03-09 22:30:05	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 22:30:16	[R]	and often trashes your system
+2014-03-09 22:30:26	tssci	ok, how might i fight the geforce gtx 675m x64 driver for Kali?
+2014-03-09 22:30:35	tssci	it didnt trash my system
+2014-03-09 22:30:37	[R]	kali
+2014-03-09 22:30:38	tssci	it just wont start X
+2014-03-09 22:30:38	[R]	of course...
+2014-03-09 22:30:40	◀▬▬	odyjm (~tHe_rEdd@modemcable049.39-21-96.mc.videotron.ca) has quit (Quit: odyjm)
+2014-03-09 22:31:13	dagnachew	hi all
+2014-03-09 22:31:39	◀▬▬	AngryNapkin (~david@97-90-144-70.static.mtpk.ca.charter.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:31:42	TingPing	tssci, https://wiki.debian.org/NvidiaGraphicsDrivers
+2014-03-09 22:32:18	tssci	appreciated, checking it out now
+2014-03-09 22:33:17	▬▬▶	R0nin (~iSyntax@oki-180-131-247-78.jptransit.net) has joined ##linux
+2014-03-09 22:33:19	◀▬▬	mekanikal (~mekanikal@unaffiliated/mekanikal) has quit (Quit: Leaving)
+2014-03-09 22:33:24	◀▬▬	safeguard (~safeguard@184.75.212.218) has quit (Quit: Leaving)
+2014-03-09 22:34:05	▬▬▶	spinningcompass (~spinningc@173.192.170.90) has joined ##linux
+2014-03-09 22:34:24	▬▬▶	arooni-mobile (~arooni-mo@190.193.118.72) has joined ##linux
+2014-03-09 22:34:40	◀▬▬	ldionmarcil (~louis@unaffiliated/maden) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:35:31	▬▬▶	brucelee (~peter@c-67-170-235-18.hsd1.ca.comcast.net) has joined ##linux
+2014-03-09 22:35:32	◀▬▬	aquinas (~aquinas_@unaffiliated/aquinas) has quit (Quit: leaving)
+2014-03-09 22:35:51	▬▬▶	aquinas (~aquinas_@unaffiliated/aquinas) has joined ##linux
+2014-03-09 22:36:04	▬▬▶	fluter (~fluter@fedora/fluter) has joined ##linux
+2014-03-09 22:36:13	◀▬▬	pack^ (~excessive@63.142.109.124) has quit (Quit: Lost terminal)
+2014-03-09 22:36:15	▬▬▶	diegoviola (~diego@unaffiliated/diegoviola) has joined ##linux
+2014-03-09 22:37:02	▬▬▶	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has joined ##linux
+2014-03-09 22:37:19	tssci	tingping: i think this is going to work, thanks
+2014-03-09 22:37:34	◀▬▬	jonasschneider (~jonasschn@HSI-KBW-046-005-233-246.hsi8.kabel-badenwuerttemberg.de) has quit (Remote host closed the connection)
+2014-03-09 22:38:40	◀▬▬	R0aD]{ilL (~r0ad@unaffiliated/r0ad) has left ##linux ("Part")
+2014-03-09 22:39:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 22:39:00	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 22:39:00	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 22:39:00	--	Channel ##linux: 1217 nicks (0 ops, 0 voices, 1217 normals)
+2014-03-09 22:39:01	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 22:39:01	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 22:39:02	--	Mode ##linux [+CPcnpt]
+2014-03-09 22:39:02	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 22:39:47	▬▬▶	quebre (~asmogator@unaffiliated/asmogator) has joined ##linux
+2014-03-09 22:40:57	▬▬▶	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has joined ##linux
+2014-03-09 22:41:30	◀▬▬	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has quit (Remote host closed the connection)
+2014-03-09 22:41:33	◀▬▬	Quark (~quark@unaffiliated/quark) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:41:44	▬▬▶	oleo (~oleo@xdsl-78-35-179-182.netcologne.de) has joined ##linux
+2014-03-09 22:41:59	▬▬▶	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has joined ##linux
+2014-03-09 22:42:58	◀▬▬	neurodrone (~neurodron@unaffiliated/neurodrone) has quit (Quit: neurodrone)
+2014-03-09 22:43:57	▬▬▶	shingshang (~shingshan@115-64-27-246.static.tpgi.com.au) has joined ##linux
+2014-03-09 22:44:18	▬▬▶	Quark (~quark@unaffiliated/quark) has joined ##linux
+2014-03-09 22:45:02	◀▬▬	bigbadben (~bigbadben@24-176-0-21.dhcp.klmz.mi.charter.com) has quit (Remote host closed the connection)
+2014-03-09 22:45:24	▬▬▶	xrosnight___ (~quassel@120.236.123.133) has joined ##linux
+2014-03-09 22:45:48	▬▬▶	ha3 (~ha3@1x-vl917-72-19-122-76.wireless.umass.edu) has joined ##linux
+2014-03-09 22:45:48	◀▬▬	ha3 (~ha3@1x-vl917-72-19-122-76.wireless.umass.edu) has quit (Changing host)
+2014-03-09 22:45:48	▬▬▶	ha3 (~ha3@unaffiliated/ha3) has joined ##linux
+2014-03-09 22:45:52	◀▬▬	xrosnight_ (~quassel@unaffiliated/xrosnight) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:46:14	▬▬▶	ldionmarcil (~louis@unaffiliated/maden) has joined ##linux
+2014-03-09 22:46:43	◀▬▬	ha3 (~ha3@unaffiliated/ha3) has quit (Client Quit)
+2014-03-09 22:46:43	◀▬▬	ktwo (~ktwo@178-26-206-231-dynip.superkabel.de) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:46:45	▬▬▶	linuxuz3r (~linuxuz3r@ppp-71-136-36-235.dsl.sndg02.pacbell.net) has joined ##linux
+2014-03-09 22:47:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 22:47:10	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 22:47:10	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 22:47:10	--	Channel ##linux: 1220 nicks (0 ops, 0 voices, 1220 normals)
+2014-03-09 22:47:10	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 22:47:10	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 22:47:10	▬▬▶	jrahmy (~jrahmy@50.23.115.110) has joined ##linux
+2014-03-09 22:47:12	--	Mode ##linux [+CPcnpt]
+2014-03-09 22:47:12	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 22:47:24	◀▬▬	Elv13 (~lepagee@98.143.213.17) has quit (Remote host closed the connection)
+2014-03-09 22:47:29	▬▬▶	junknown4 (~djp@c-98-245-118-2.hsd1.co.comcast.net) has joined ##linux
+2014-03-09 22:47:49	◀▬▬	gandaliter (~toby@zone2.jesus.cam.ac.uk) has quit (Remote host closed the connection)
+2014-03-09 22:47:54	▬▬▶	timemage (~user@unaffiliated/timemage) has joined ##linux
+2014-03-09 22:47:54	◀▬▬	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has quit (Read error: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number)
+2014-03-09 22:48:22	▬▬▶	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has joined ##linux
+2014-03-09 22:49:14	▬▬▶	kareem (~kareem@99-48-156-207.lightspeed.cornca.sbcglobal.net) has joined ##linux
+2014-03-09 22:49:30	◀▬▬	Dedalo (~Dedalo@77.72.35.178) has quit (Remote host closed the connection)
+2014-03-09 22:49:46	▬▬▶	lynus (~lynus@2001:da8:c803:1437:21d:92ff:fe0b:5ab2) has joined ##linux
+2014-03-09 22:50:37	◀▬▬	Asix3 (32ac2f35@gateway/web/freenode/ip.50.172.47.53) has quit (Quit: Page closed)
+2014-03-09 22:50:47	▬▬▶	junknown5 (~djp@c-98-245-118-2.hsd1.co.comcast.net) has joined ##linux
+2014-03-09 22:51:08	◀▬▬	junknown3 (~djp@c-98-245-118-2.hsd1.co.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:51:15	▬▬▶	Upgrade (~floyd@pool-96-254-79-224.tampfl.fios.verizon.net) has joined ##linux
+2014-03-09 22:51:22	▬▬▶	ktwo (~ktwo@178-26-206-231-dynip.superkabel.de) has joined ##linux
+2014-03-09 22:52:02	▬▬▶	rwiggins (~rwiggins@2601:5:1f00:758:92f6:52ff:fee5:77d1) has joined ##linux
+2014-03-09 22:52:29	◀▬▬	linuxuz3r (~linuxuz3r@ppp-71-136-36-235.dsl.sndg02.pacbell.net) has quit (Remote host closed the connection)
+2014-03-09 22:52:32	◀▬▬	jrahmy (~jrahmy@50.23.115.110) has quit (Read error: Connection reset by peer)
+2014-03-09 22:52:50	▬▬▶	neurodrone (~neurodron@unaffiliated/neurodrone) has joined ##linux
+2014-03-09 22:53:02	▬▬▶	mdih (~dvillamer@222.127.13.226) has joined ##linux
+2014-03-09 22:54:08	◀▬▬	junknown4 (~djp@c-98-245-118-2.hsd1.co.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:55:03	◀▬▬	mobileblue (~Blue@46.19.142.230) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:56:06	▬▬▶	ytrezq (~ytrezq@2a02-8422-1191-6e00-56e6-fcff-fedb-2bba.rev.sfr.net) has joined ##linux
+2014-03-09 22:56:31	ytrezq	Hello I can't find the configuration option for zram in 3.14 . Does zram support have been removed from (staging) mainline?
+2014-03-09 22:58:17	◀▬▬	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:58:30	◀▬▬	tssci (~jg@148.70.181.178) has quit (Quit: Lost terminal)
+2014-03-09 22:58:34	▬▬▶	jrahmy (~jrahmy@50.23.113.213) has joined ##linux
+2014-03-09 22:59:23	▬▬▶	vkbsh (~vkbsh@207-38-151-173.c3-0.avec-ubr2.nyr-avec.ny.cable.rcn.com) has joined ##linux
+2014-03-09 23:00:32	▬▬▶	RadiationBeta (~radiation@94.197.120.91.threembb.co.uk) has joined ##linux
+2014-03-09 23:01:13	◀▬▬	amcsi_work (~Attila@81.168.2.131) has quit (Read error: Connection reset by peer)
+2014-03-09 23:01:20	--	captawsm is now known as Captain_Awesome
+2014-03-09 23:01:35	▬▬▶	amcsi_work (~Attila@81.168.2.131) has joined ##linux
+2014-03-09 23:01:42	bradleymeck	is there a linux equivalent of NSCreateObjectFileImageFromMemory https://developer.apple.com/library/mac/documentation/DeveloperTools/Reference/MachOReference/Reference/reference.html#//apple_ref/c/func/NSCreateObjectFileImageFromMemory?
+2014-03-09 23:02:45	◀▬▬	nemilar (~jdeprizi@50.245.33.221) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:03:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 23:03:10	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 23:03:10	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 23:03:10	--	Channel ##linux: 1224 nicks (0 ops, 0 voices, 1224 normals)
+2014-03-09 23:03:10	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 23:03:10	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 23:03:12	--	Mode ##linux [+CPcnpt]
+2014-03-09 23:03:12	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 23:03:32	▬▬▶	mobileblue (~Blue@46.19.142.230) has joined ##linux
+2014-03-09 23:03:38	▬▬▶	nemilar (~jdeprizi@50.245.33.221) has joined ##linux
+2014-03-09 23:05:03	bocaneri	bradleymeck, I have no idea what "Mach-O" is.
+2014-03-09 23:05:31	 *	RiverRat guesses standing still
+2014-03-09 23:05:37	◀▬▬	jonr22 (~jonr22@c-65-96-170-37.hsd1.ma.comcast.net) has quit
+2014-03-09 23:06:16	[R]	bradleymeck: wht is nscreateobjectfileiamgefrommemory?
+2014-03-09 23:06:46	▬▬▶	lugo (~Adium@184-23-29-146.dsl.dynamic.sonic.net) has joined ##linux
+2014-03-09 23:06:50	▬▬▶	[1]RadiationBeta (~radiation@host-92-30-238-45.as13285.net) has joined ##linux
+2014-03-09 23:07:12	▬▬▶	Saubatzen (~sad@dslb-188-104-218-152.pools.arcor-ip.net) has joined ##linux
+2014-03-09 23:07:20	▬▬▶	Sibin (~admin@114.249.146.239) has joined ##linux
+2014-03-09 23:07:48	bocaneri	I'd think its name is suggestive enough, but if it literally means something like "create an ELF format file from a chunk of memory associatd with a currently running process", I'd say "good luck with that".
+2014-03-09 23:08:02	▬▬▶	fiyawerx (~quassel@c-98-235-82-113.hsd1.pa.comcast.net) has joined ##linux
+2014-03-09 23:08:15	timemage	bocaneri, dunno, isn't that pretty much what a core file is?
+2014-03-09 23:08:20	bradleymeck	bocaneri: [R]: it is similar to dlopen, but for a library in memory
+2014-03-09 23:08:46	▬▬▶	tssci (~jg@148.70.181.178) has joined ##linux
+2014-03-09 23:09:18	bradleymeck	I can write it to disk and dlopen it, but would prefer not to since I am trying to make an executable bundler
+2014-03-09 23:09:23	◀▬▬	arooni-mobile (~arooni-mo@190.193.118.72) has quit (Quit: Leaving)
+2014-03-09 23:09:36	[R]	you can't
+2014-03-09 23:09:39	◀▬▬	rexwin_ (~rexwin@116.202.98.120) has quit (Quit: ~ Trillian Astra - www.trillian.im ~)
+2014-03-09 23:09:44	▬▬▶	arooni-mobile (~arooni-mo@190.193.118.72) has joined ##linux
+2014-03-09 23:10:01	◀▬▬	RadiationBeta (~radiation@94.197.120.91.threembb.co.uk) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:10:08	bocaneri	Somebody was asking about that earlier today. The response given, iirc, was "good luck with your spyware".
+2014-03-09 23:10:23	bradleymeck	bocaneri: I remember since I was the one asking / am looking this up
+2014-03-09 23:10:25	▬▬▶	Elv13 (~lepagee@98.143.213.17) has joined ##linux
+2014-03-09 23:10:45	◀▬▬	[1]RadiationBeta (~radiation@host-92-30-238-45.as13285.net) has left ##linux
+2014-03-09 23:10:47	bradleymeck	the general response on the internet on how to do it is to manually parse / use mmap and never tell the OS what you are doing... which sounds... bad
+2014-03-09 23:10:57	hyperair	bradleymeck: libffi
+2014-03-09 23:11:00	◀▬▬	lugo (~Adium@184-23-29-146.dsl.dynamic.sonic.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:11:18	▬▬▶	RadiationBeta (~radiation@host-92-30-238-45.as13285.net) has joined ##linux
+2014-03-09 23:11:42	▬▬▶	mackal (~mike@pool-96-237-144-223.bstnma.fios.verizon.net) has joined ##linux
+2014-03-09 23:13:44	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 23:13:44	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 23:13:44	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 23:13:44	--	Channel ##linux: 1230 nicks (0 ops, 0 voices, 1230 normals)
+2014-03-09 23:13:45	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 23:13:45	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 23:13:46	--	Mode ##linux [+CPcnpt]
+2014-03-09 23:13:46	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 23:14:04	hyperair	write to /dev/shm/foolib.so, dlopen it, unlink it.
+2014-03-09 23:14:50	violinuxer	mttc and i are having some wicked issues mounting hfs+ from a full-disk hard drive image (using offset). anybody got ideas?
+2014-03-09 23:15:03	violinuxer	it won't even mount readonly
+2014-03-09 23:15:51	[R]	violinuxer: "wicked issues"?
+2014-03-09 23:16:20	▬▬▶	crxz0193 (~crxz0193@203.247.149.152) has joined ##linux
+2014-03-09 23:16:24	▬▬▶	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has joined ##linux
+2014-03-09 23:16:47	violinuxer	basically, we have a image with two partitions, one fat32, one hfs+, both under GPT. mount -t hfsplus -o loop,offset=offset cant find the superblock
+2014-03-09 23:17:00	violinuxer	it's journaled
+2014-03-09 23:17:11	[R]	try using try using kpartx
+2014-03-09 23:17:20	[R]	you sure linux supports all the features it uses?
+2014-03-09 23:17:31	◀▬▬	ruukasu (~ruukasu@unaffiliated/ruukasu) has quit (Quit: Leaving)
+2014-03-09 23:17:36	violinuxer	every where ive seen says it can at least be mounted readonly
+2014-03-09 23:17:52	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 23:17:52	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 23:17:52	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 23:17:52	--	Channel ##linux: 1231 nicks (0 ops, 0 voices, 1231 normals)
+2014-03-09 23:17:53	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 23:17:53	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 23:17:54	--	Mode ##linux [+CPcnpt]
+2014-03-09 23:17:54	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 23:17:57	violinuxer	what's the story with kpartx?
+2014-03-09 23:18:01	[R]	story?
+2014-03-09 23:18:39	▬▬▶	foredoomed (~foredoome@101.228.85.136) has joined ##linux
+2014-03-09 23:19:17	violinuxer	how do you use it :)
+2014-03-09 23:19:28	◀▬▬	visionsmile (~visionsmi@221.15.251.18) has quit (Quit: Lost terminal)
+2014-03-09 23:19:37	◀▬▬	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:19:52	[R]	you mean aside from reading the documentation?
+2014-03-09 23:20:10	violinuxer	haha.... sorry *reads documentation*
+2014-03-09 23:20:53	bocaneri	Yea, we're kinda big on reading docs.
+2014-03-09 23:20:57	▬▬▶	ruukasu (~ruukasu@cpe-76-179-90-178.maine.res.rr.com) has joined ##linux
+2014-03-09 23:20:57	◀▬▬	ruukasu (~ruukasu@cpe-76-179-90-178.maine.res.rr.com) has quit (Changing host)
+2014-03-09 23:20:57	▬▬▶	ruukasu (~ruukasu@unaffiliated/ruukasu) has joined ##linux
+2014-03-09 23:21:14	▬▬▶	xrosnight_ (~quassel@120.236.123.130) has joined ##linux
+2014-03-09 23:21:26	[R]	bocaneri: that's what she said
+2014-03-09 23:21:40	▬▬▶	notobvious (~notobviou@212.252.119.134) has joined ##linux
+2014-03-09 23:21:43	bocaneri	I used to walk in this place all the time and ask "How do you...?" They'd say "read the docs." I'd say "WHICH goddamn docs, the owner's manual, the operator's manual, the adminstrator's manual, the programmer's manual or the goddamn Kama Sutra!?"
+2014-03-09 23:22:01	◀▬▬	xrosnight___ (~quassel@120.236.123.133) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:22:11	◀▬▬	tssci (~jg@148.70.181.178) has quit (Quit: Lost terminal)
+2014-03-09 23:22:13	◀▬▬	kareem (~kareem@99-48-156-207.lightspeed.cornca.sbcglobal.net) has quit (Read error: Connection reset by peer)
+2014-03-09 23:22:40	[R]	all of them!
+2014-03-09 23:22:53	[R]	although i'm not quire sure how the kama sutra is going to help you with linux
+2014-03-09 23:22:56	◀▬▬	vkbsh (~vkbsh@207-38-151-173.c3-0.avec-ubr2.nyr-avec.ny.cable.rcn.com) has quit (Remote host closed the connection)
+2014-03-09 23:23:18	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 23:23:18	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 23:23:18	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 23:23:18	--	Channel ##linux: 1228 nicks (0 ops, 0 voices, 1228 normals)
+2014-03-09 23:23:19	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 23:23:19	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 23:23:20	--	Mode ##linux [+CPcnpt]
+2014-03-09 23:23:20	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 23:23:22	◀▬▬	dj_pi (~dj@c-107-5-25-243.hsd1.mi.comcast.net) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:23:23	violinuxer	i should read 'em more
+2014-03-09 23:23:26	bocaneri	Sorry, dude... the programmer's manual tended to be written either in ALGOL or Sanskrit (I was never able to tell the difference)
+2014-03-09 23:24:12	violinuxer	bocaneri: [R]: are you guys veterans around here? :)
+2014-03-09 23:24:25	 *	bocaneri sure can swear like one
+2014-03-09 23:24:36	◀▬▬	neurodrone (~neurodron@unaffiliated/neurodrone) has quit (Quit: neurodrone)
+2014-03-09 23:24:55	▬▬▶	FungiFox (~fungifox@99-56-40-92.lightspeed.irvnca.sbcglobal.net) has joined ##linux
+2014-03-09 23:25:23	◀▬▬	notobvious (~notobviou@212.252.119.134) has quit (Quit: adieu)
+2014-03-09 23:25:51	violinuxer	haha... If that's what it takes then...
+2014-03-09 23:25:57	◀▬▬	horsik (~username@178-37-110-109.adsl.inetia.pl) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:26:09	▬▬▶	Peleus (~chatzilla@121.127.201.250) has joined ##linux
+2014-03-09 23:26:20	violinuxer	kpartx worked. so that scans partition tables from img files and converts them to /dev/ entries? that is pretty darn awesome...
+2014-03-09 23:26:23	◀▬▬	maestrojed (~maestroje@c-98-246-149-230.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:26:35	Peleus	Hey all, anyone able to help me get dual GPU's going on Kali? Would be super appreciated
+2014-03-09 23:26:51	▬▬▶	neurodrone (~neurodron@unaffiliated/neurodrone) has joined ##linux
+2014-03-09 23:26:57	◀▬▬	grep0r (grep0r@bitcoinshell.mooo.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:27:15	▬▬▶	Corvette (~daniel@ool-45780b71.dyn.optonline.net) has joined ##linux
+2014-03-09 23:27:47	◀▬▬	kerframil (~kerframil@gentoo/user/kerframil) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:28:00	[R]	Peleus: you should probabaly just use a sane dist...
+2014-03-09 23:28:25	Peleus	This is sane for my purposes :)
+2014-03-09 23:28:34	◀▬▬	NoirX (~NoirX@s529d3443.adsl.online.nl) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:28:40	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Read error: Connection reset by peer)
+2014-03-09 23:28:54	bocaneri	What purpose is that?
+2014-03-09 23:29:02	[R]	having a completley broken system probably
+2014-03-09 23:29:39	Peleus	bacaneri netsec, doing OSCP etc
+2014-03-09 23:29:46	violinuxer	[R] mttc asks to convey a bunch of thanks
+2014-03-09 23:30:31	▬▬▶	_CalLightman_ (~CalLightm@115.248.130.148) has joined ##linux
+2014-03-09 23:30:34	▬▬▶	mttc (~mttc@bas2-toronto43-1279321669.dsl.bell.ca) has joined ##linux
+2014-03-09 23:30:41	 *	bocaneri installs kpartx and reads docs, and says "!@#$@%# COOL!"
+2014-03-09 23:31:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined ##linux
+2014-03-09 23:31:00	--	Topic for ##linux is "Forums is back in testing http://forums.linuxassist.net | Channel website: http://www.linuxassist.net | Pastebin: http://paste.linuxassist.net | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Feel at home and enjoy your stay"
+2014-03-09 23:31:00	--	Topic set by WildPikachu on Sat, 28 Dec 2013 10:22:52
+2014-03-09 23:31:00	--	Channel ##linux: 1225 nicks (0 ops, 0 voices, 1225 normals)
+2014-03-09 23:31:00	--	PvNotice(ChanServ): Welcome to ##Linux! Can't speak? Please see http://www.linuxassist.net/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines stated on the official ##Linux website http://www.linuxassist.net/channel-rules/
+2014-03-09 23:31:00	--	URL for ##linux: http://www.linuxassist.net
+2014-03-09 23:31:02	--	Mode ##linux [+CPcnpt]
+2014-03-09 23:31:02	--	Channel created on Fri, 09 Feb 2001 18:16:24
+2014-03-09 23:31:08	violinuxer	how do you do the action quote thingy?????
+2014-03-09 23:31:10	◀▬▬	brucelee (~peter@c-67-170-235-18.hsd1.ca.comcast.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:31:26	bocaneri	violinuxer, /me <whatever you're doing here>
+2014-03-09 23:31:38	dradec	violinuxer: /me say something
+2014-03-09 23:31:46	 *	violinuxer figures out how to do irc stuff the right way
+2014-03-09 23:32:02	violinuxer	yeah, kpartx just went on my list of pretty awesome software
+2014-03-09 23:32:17	 *	RiverRat wants a /my for the possessive
+2014-03-09 23:32:22	▬▬▶	xangua (uid19036@gateway/web/irccloud.com/x-ychghsswgwjlnmuz) has joined ##linux
+2014-03-09 23:33:10	 *	bocaneri says "possess THIS!"
+2014-03-09 23:33:29	▬▬▶	Sibin (~admin@114.249.146.239) has joined ##linux
+2014-03-09 23:33:31	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:33:44	◀▬▬	`Cam (~textual@60-241-86-210.static.tpgi.com.au) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-09 23:33:46	 *	violinuxer thinks /"me likes cookies" makes for TERRIBLE grammer :D
+2014-03-09 23:33:51	violinuxer	*grammar
+2014-03-09 23:33:59	▬▬▶	Sibin (~admin@114.249.146.239) has joined ##linux
+2014-03-09 23:34:02	▬▬▶	brucelee (~peter@c-67-170-235-18.hsd1.ca.comcast.net) has joined ##linux
+2014-03-09 23:34:03	◀▬▬	socomm (~socomm@96-40-131-63.dhcp.mtpk.ca.charter.com) has quit (Quit: WeeChat 0.4.0)
+2014-03-09 23:34:05	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:34:08	◀▬▬	Kismet (~Thunderbi@l37-192-192-216.novotelecom.ru) has quit (Remote host closed the connection)
+2014-03-09 23:34:09	bocaneri	yea, but it's a third party action. Grammatically, you have to refer to yourself in the third person.
+2014-03-09 23:34:36	[R]	like jimmy on seinfeld
+2014-03-09 23:34:41	▬▬▶	Sibin (~admin@114.249.146.239) has joined ##linux
+2014-03-09 23:34:43	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:34:47	◀▬▬	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has quit (Remote host closed the connection)
