@@ -61,3 +61,50 @@
 2014-03-09 22:52:02	▬▬▶	rwiggins (~rwiggins@2601:5:1f00:758:92f6:52ff:fee5:77d1) has joined #zsh
 2014-03-09 22:53:33	▬▬▶	j^2 (~jasghar@cpe-24-27-41-72.austin.res.rr.com) has joined #zsh
 2014-03-09 22:53:49	◀▬▬	barosl (~barosl@119.192.208.12) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:58:38	◀▬▬	seburb (~seburb@g231240249.adsl.alicedsl.de) has quit (Ping timeout: 241 seconds)
+2014-03-09 23:03:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #zsh
+2014-03-09 23:03:10	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-09 23:03:10	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-09 23:03:10	--	Channel #zsh: 320 nicks (0 ops, 0 voices, 320 normals)
+2014-03-09 23:03:10	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-09 23:03:10	--	URL for #zsh: http://www.zsh.org/
+2014-03-09 23:03:14	--	Mode #zsh [+cnt]
+2014-03-09 23:03:14	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-09 23:06:00	◀▬▬	pdq (CND@unaffiliated/pdq) has quit (Read error: Connection reset by peer)
+2014-03-09 23:08:17	▬▬▶	pdq (CND@208.98.9.84) has joined #zsh
+2014-03-09 23:11:13	◀▬▬	WinstonSmith_ (~WinstonSm@bl9-220-28.dsl.telepac.pt) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:13:44	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #zsh
+2014-03-09 23:13:44	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-09 23:13:44	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-09 23:13:44	--	Channel #zsh: 319 nicks (0 ops, 0 voices, 319 normals)
+2014-03-09 23:13:45	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-09 23:13:45	--	URL for #zsh: http://www.zsh.org/
+2014-03-09 23:13:48	--	Mode #zsh [+cnt]
+2014-03-09 23:13:48	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-09 23:16:05	▬▬▶	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has joined #zsh
+2014-03-09 23:17:52	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #zsh
+2014-03-09 23:17:52	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-09 23:17:52	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-09 23:17:52	--	Channel #zsh: 320 nicks (0 ops, 0 voices, 320 normals)
+2014-03-09 23:17:53	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-09 23:17:53	--	URL for #zsh: http://www.zsh.org/
+2014-03-09 23:17:56	--	Mode #zsh [+cnt]
+2014-03-09 23:17:56	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-09 23:18:39	▬▬▶	foredoomed (~foredoome@101.228.85.136) has joined #zsh
+2014-03-09 23:20:27	◀▬▬	j^2 (~jasghar@cpe-24-27-41-72.austin.res.rr.com) has quit (Quit: for i in `/names` ; do adios $i; done)
+2014-03-09 23:23:18	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #zsh
+2014-03-09 23:23:18	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-09 23:23:18	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-09 23:23:19	--	Channel #zsh: 319 nicks (0 ops, 0 voices, 319 normals)
+2014-03-09 23:23:19	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-09 23:23:19	--	URL for #zsh: http://www.zsh.org/
+2014-03-09 23:23:22	--	Mode #zsh [+cnt]
+2014-03-09 23:23:22	--	Channel created on Tue, 02 Sep 2003 11:34:53
+2014-03-09 23:31:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #zsh
+2014-03-09 23:31:00	--	Topic for #zsh is "v5.0.5 | http://zsh.sf.net/ | http://zshwiki.org/ | http://zsh.sf.net/FAQ/ | http://zshwiki.org/home/docs/wikifaq | http://tinyurl.com/zsh-refcard-pdf | Just ask. | Nobody here or everybody clueless? try the zsh-users mailinglist: http://www.zsh.org/mla"
+2014-03-09 23:31:00	--	Topic set by thrig (thrig@unaffilaited/thrig) on Thu, 16 Jan 2014 15:37:54
+2014-03-09 23:31:00	--	Channel #zsh: 319 nicks (0 ops, 0 voices, 319 normals)
+2014-03-09 23:31:00	--	PvNotice(ChanServ): Welcome to #zsh! Discussion of the Z Shell and sharing of configs highly encouraged. Enjoy your stay and come back soon!
+2014-03-09 23:31:00	--	URL for #zsh: http://www.zsh.org/
+2014-03-09 23:31:04	--	Mode #zsh [+cnt]
+2014-03-09 23:31:04	--	Channel created on Tue, 02 Sep 2003 11:34:53

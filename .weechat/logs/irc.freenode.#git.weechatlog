@@ -208,3 +208,86 @@
 2014-03-09 22:52:32	◀▬▬	jrahmy (~jrahmy@50.23.115.110) has quit (Read error: Connection reset by peer)
 2014-03-09 22:53:54	▬▬▶	lindenle_ (~lindenle@host-184-167-16-102.jcs-wy.client.bresnan.net) has joined #git
 2014-03-09 22:54:16	◀▬▬	ellie_fitzy (44344dfa@gateway/web/freenode/ip.68.52.77.250) has left #git
+2014-03-09 22:55:09	◀▬▬	Mackseraner (~textual@rgnb-5d87c3ae.pool.mediaWays.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-03-09 22:56:12	▬▬▶	SorenHolm (~quassel@5634f347.rev.stofanet.dk) has joined #git
+2014-03-09 22:56:32	◀▬▬	marcjs (~marcjs@HSI-KBW-109-193-199-152.hsi7.kabel-badenwuerttemberg.de) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:58:34	▬▬▶	jrahmy (~jrahmy@50.23.113.213) has joined #git
+2014-03-09 22:58:47	◀▬▬	lindenle_ (~lindenle@host-184-167-16-102.jcs-wy.client.bresnan.net) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:58:56	◀▬▬	zajn (~zajn@2607:f140:400:b003:e4ac:ae0f:4695:2dd6) has quit (Remote host closed the connection)
+2014-03-09 22:58:59	▬▬▶	Zebroid (~zebroid@cm-84.215.195.18.getinternet.no) has joined #git
+2014-03-09 23:01:01	▬▬▶	NBhosting (~nbhosting@D97BCF89.cm-3-4d.dynamic.ziggo.nl) has joined #git
+2014-03-09 23:01:13	◀▬▬	amcsi_work (~Attila@81.168.2.131) has quit (Read error: Connection reset by peer)
+2014-03-09 23:01:35	▬▬▶	amcsi_work (~Attila@81.168.2.131) has joined #git
+2014-03-09 23:02:27	◀▬▬	sluther (~sluther@ip68-227-13-135.lv.lv.cox.net) has quit (Quit: ["Textual IRC Client: www.textualapp.com"])
+2014-03-09 23:03:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #git
+2014-03-09 23:03:10	--	Topic for #git is "Welcome to #git, the place for git help and assorted leftovers | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | git-rerere: the git that keeps on giving"
+2014-03-09 23:03:10	--	Topic set by Eugene (eugene@itvends.com) on Sun, 09 Mar 2014 12:57:03
+2014-03-09 23:03:10	--	Channel #git: 1025 nicks (1 op, 13 voices, 1011 normals)
+2014-03-09 23:03:15	◀▬▬	Zebroid (~zebroid@cm-84.215.195.18.getinternet.no) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:03:18	--	Mode #git [+Ccnt]
+2014-03-09 23:03:18	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-09 23:05:15	offby1	It's a frog ... and it's on wheels!
+2014-03-09 23:05:35	nn0101	thiago: thanks. that worked perfectly.
+2014-03-09 23:08:36	▬▬▶	dmnd (~dmnd@unaffiliated/dmnd) has joined #git
+2014-03-09 23:09:39	▬▬▶	yosito (~yosito@179.52.111.141) has joined #git
+2014-03-09 23:11:00	◀▬▬	netcarver (~netcarver@70.235.125.91.dyn.plus.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:11:18	◀▬▬	axl_ (~axl_@c-50-157-105-19.hsd1.mn.comcast.net) has quit (Quit: axl_)
+2014-03-09 23:11:43	◀▬▬	yosito (~yosito@179.52.111.141) has quit (Client Quit)
+2014-03-09 23:13:44	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #git
+2014-03-09 23:13:44	--	Topic for #git is "Welcome to #git, the place for git help and assorted leftovers | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | git-rerere: the git that keeps on giving"
+2014-03-09 23:13:44	--	Topic set by Eugene (eugene@itvends.com) on Sun, 09 Mar 2014 12:57:02
+2014-03-09 23:13:45	--	Channel #git: 1023 nicks (1 op, 13 voices, 1009 normals)
+2014-03-09 23:13:45	◀▬▬	bitsandbooks (~robd@99-127-161-198.lightspeed.cicril.sbcglobal.net) has quit (Quit: Goodbye!)
+2014-03-09 23:13:52	--	Mode #git [+Ccnt]
+2014-03-09 23:13:52	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-09 23:17:53	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #git
+2014-03-09 23:17:53	--	Topic for #git is "Welcome to #git, the place for git help and assorted leftovers | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | git-rerere: the git that keeps on giving"
+2014-03-09 23:17:53	--	Topic set by Eugene (eugene@itvends.com) on Sun, 09 Mar 2014 12:57:03
+2014-03-09 23:17:53	--	Channel #git: 1022 nicks (1 op, 13 voices, 1008 normals)
+2014-03-09 23:17:54	▬▬▶	Goplat (~goplat@reactos/developer/Goplat) has joined #git
+2014-03-09 23:18:00	--	Mode #git [+Ccnt]
+2014-03-09 23:18:00	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-09 23:18:39	▬▬▶	foredoomed (~foredoome@101.228.85.136) has joined #git
+2014-03-09 23:19:13	◀▬▬	LuxuryMode (~LuxuryMod@pool-71-167-49-113.nycmny.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:20:06	▬▬▶	Rex357 (~jeff@blk-7-202-166.eastlink.ca) has joined #git
+2014-03-09 23:20:12	▬▬▶	reskp (~accessibl@78.193.56.47) has joined #git
+2014-03-09 23:20:19	Rex357	Hi. Having trouble pulling the git repository from here:
+2014-03-09 23:20:32	Rex357	http://git.freescale.com/git/cgit.cgi/imx/uboot-imx.git
+2014-03-09 23:20:41	◀▬▬	dmnd (~dmnd@unaffiliated/dmnd) has quit (Quit: dmnd)
+2014-03-09 23:20:57	Rex357	Using command git clone git://git.freescale.com/git/cgit.cgi/imx/uboot-imx.git
+2014-03-09 23:21:10	Rex357	Am getting error: fatal: the remote end hung up unexpectedly
+2014-03-09 23:22:38	+milki	Rex357: thats not a repo
+2014-03-09 23:22:46	+milki	Rex357: look at the bottom of the page
+2014-03-09 23:22:52	+milki	o wait..
+2014-03-09 23:22:58	+milki	the click is different
+2014-03-09 23:23:19	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #git
+2014-03-09 23:23:19	--	Topic for #git is "Welcome to #git, the place for git help and assorted leftovers | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | git-rerere: the git that keeps on giving"
+2014-03-09 23:23:19	--	Topic set by Eugene (eugene@itvends.com) on Sun, 09 Mar 2014 12:57:03
+2014-03-09 23:23:19	--	Channel #git: 1023 nicks (1 op, 13 voices, 1009 normals)
+2014-03-09 23:23:26	--	Mode #git [+Ccnt]
+2014-03-09 23:23:26	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-09 23:23:32	Rex357	Haaa
+2014-03-09 23:23:35	Rex357	Thanks.
+2014-03-09 23:23:39	Rex357	Working now
+2014-03-09 23:23:43	◀▬▬	kukks (~Guenter@samba/team/kukks) has quit (Quit: Going home ...)
+2014-03-09 23:23:48	TheMainFunction	heh
+2014-03-09 23:24:02	TheMainFunction	That's a great problem/solution!
+2014-03-09 23:24:57	+milki	?
+2014-03-09 23:25:01	◀▬▬	reskp (~accessibl@78.193.56.47) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:25:38	▬▬▶	lindenle_ (~lindenle@host-184-167-16-102.jcs-wy.client.bresnan.net) has joined #git
+2014-03-09 23:26:23	◀▬▬	maestrojed (~maestroje@c-98-246-149-230.hsd1.or.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:26:44	TheMainFunction	milki: Easy to fix!
+2014-03-09 23:26:57	◀▬▬	grep0r (grep0r@bitcoinshell.mooo.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:27:00	TheMainFunction	the best kind of problem to have.
+2014-03-09 23:29:58	▬▬▶	caption (~blaehh@ip-64-134-222-190.public.wayport.net) has joined #git
+2014-03-09 23:30:33	caption	hey guys, i want to use beanstalkpp ftp for deployment on a wordpress site, but I update plugins through the website, how can I handle getting these changes commited, even though I'm deploying through ftp
+2014-03-09 23:30:37	caption	not sure how to go about handlign this
+2014-03-09 23:31:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #git
+2014-03-09 23:31:00	--	Topic for #git is "Welcome to #git, the place for git help and assorted leftovers | Current stable version: 1.9.0 | Start here: http://jk.gs/git | Seeing "Cannot send to channel" or unable to change nick? /msg gitinfo .voice | git-rerere: the git that keeps on giving"
+2014-03-09 23:31:00	--	Topic set by Eugene (eugene@itvends.com) on Sun, 09 Mar 2014 12:57:07
+2014-03-09 23:31:00	--	Channel #git: 1021 nicks (1 op, 13 voices, 1007 normals)
+2014-03-09 23:31:08	--	Mode #git [+Ccnt]
+2014-03-09 23:31:08	--	Channel created on Sun, 26 Nov 2006 01:42:45
+2014-03-09 23:32:06	◀▬▬	joelrobichaud (~Joel@modemcable209.137-81-70.mc.videotron.ca) has quit (Quit: Leaving)
+2014-03-09 23:34:12	◀▬▬	stellarhopper (~stellarho@unaffiliated/stellarhopper) has quit (Remote host closed the connection)
+2014-03-09 23:34:45	BtbN	not using ftp sounds like a great solution

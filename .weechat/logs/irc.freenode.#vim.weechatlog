@@ -133,3 +133,75 @@
 2014-03-09 22:52:02	▬▬▶	rwiggins (~rwiggins@2601:5:1f00:758:92f6:52ff:fee5:77d1) has joined #vim
 2014-03-09 22:52:57	◀▬▬	john_doe_jr (~Adium@209.33.40.64) has quit (Quit: Leaving.)
 2014-03-09 22:53:33	▬▬▶	j^2 (~jasghar@cpe-24-27-41-72.austin.res.rr.com) has joined #vim
+2014-03-09 22:56:42	◀▬▬	johnny_rugger (~johnny_ru@c-24-127-225-154.hsd1.fl.comcast.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-09 22:57:03	◀▬▬	blivande (~Chw@189.193.65.173) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:57:20	◀▬▬	tolecnal (tolecnal@zurich.xiro.net) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:58:03	◀▬▬	r0ok (~rook@c-24-118-232-172.hsd1.mn.comcast.net) has quit (Quit: Lost terminal)
+2014-03-09 22:59:52	▬▬▶	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has joined #vim
+2014-03-09 23:01:01	▬▬▶	stianhj (~stian@147.87.202.84.customer.cdi.no) has joined #vim
+2014-03-09 23:01:13	◀▬▬	amcsi_work (~Attila@81.168.2.131) has quit (Read error: Connection reset by peer)
+2014-03-09 23:01:35	▬▬▶	amcsi_work (~Attila@81.168.2.131) has joined #vim
+2014-03-09 23:03:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #vim
+2014-03-09 23:03:10	--	Topic for #vim is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | Vim 7.4.155 http://vim.sf.net | Don't ask to ask! | Before you ask :help, and :helpgrep, and google | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | DONATE: http://www.vim.org/sponsor"
+2014-03-09 23:03:10	--	Topic set by jamessan on Wed, 22 Jan 2014 22:33:01
+2014-03-09 23:03:10	--	Channel #vim: 898 nicks (0 ops, 0 voices, 898 normals)
+2014-03-09 23:03:10	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2014-03-09 23:03:10	--	URL for #vim: http://vi-improved.org
+2014-03-09 23:03:14	▬▬▶	tolecnal (tolecnal@zurich.xiro.net) has joined #vim
+2014-03-09 23:03:16	--	Mode #vim [+Ccnt]
+2014-03-09 23:03:16	--	Channel created on Sun, 26 Nov 2006 01:42:44
+2014-03-09 23:04:40	▬▬▶	beingAwesome (~Thunderbi@106.66.201.14) has joined #vim
+2014-03-09 23:05:37	◀▬▬	jonr22 (~jonr22@c-65-96-170-37.hsd1.ma.comcast.net) has quit
+2014-03-09 23:08:11	▬▬▶	pyx (~pyx@unaffiliated/pyx) has joined #vim
+2014-03-09 23:08:24	◀▬▬	pyx (~pyx@unaffiliated/pyx) has quit (Client Quit)
+2014-03-09 23:09:04	◀▬▬	beingAwesome (~Thunderbi@106.66.201.14) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:11:00	◀▬▬	netcarver (~netcarver@70.235.125.91.dyn.plus.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:11:18	◀▬▬	axl_ (~axl_@c-50-157-105-19.hsd1.mn.comcast.net) has quit (Quit: axl_)
+2014-03-09 23:12:30	▬▬▶	corinna000 (~corinna0_@216.84.110.18) has joined #vim
+2014-03-09 23:12:32	▬▬▶	jetblack (~jetblack@33.sub-70-197-198.myvzw.com) has joined #vim
+2014-03-09 23:13:24	▬▬▶	mrmrs (~mrmrs@GITHUB-INC.bar1.SanFrancisco1.Level3.net) has joined #vim
+2014-03-09 23:13:44	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #vim
+2014-03-09 23:13:44	--	Topic for #vim is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | Vim 7.4.155 http://vim.sf.net | Don't ask to ask! | Before you ask :help, and :helpgrep, and google | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | DONATE: http://www.vim.org/sponsor"
+2014-03-09 23:13:44	--	Topic set by jamessan on Wed, 22 Jan 2014 22:33:01
+2014-03-09 23:13:44	--	Channel #vim: 899 nicks (0 ops, 0 voices, 899 normals)
+2014-03-09 23:13:45	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2014-03-09 23:13:45	--	URL for #vim: http://vi-improved.org
+2014-03-09 23:13:45	◀▬▬	bitsandbooks (~robd@99-127-161-198.lightspeed.cicril.sbcglobal.net) has quit (Quit: Goodbye!)
+2014-03-09 23:13:50	--	Mode #vim [+Ccnt]
+2014-03-09 23:13:50	--	Channel created on Sun, 26 Nov 2006 01:42:44
+2014-03-09 23:15:08	◀▬▬	zypper (~quassel@modemcable210.109-130-66.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:15:43	◀▬▬	achiu3 (~achiu@ip68-5-32-106.oc.oc.cox.net) has quit (Remote host closed the connection)
+2014-03-09 23:16:41	▬▬▶	ceedubs (~ceedubs@ip72-200-169-67.ri.ri.cox.net) has joined #vim
+2014-03-09 23:17:09	◀▬▬	corinna000 (~corinna0_@216.84.110.18) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:17:52	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #vim
+2014-03-09 23:17:52	--	Topic for #vim is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | Vim 7.4.155 http://vim.sf.net | Don't ask to ask! | Before you ask :help, and :helpgrep, and google | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | DONATE: http://www.vim.org/sponsor"
+2014-03-09 23:17:52	--	Topic set by jamessan on Wed, 22 Jan 2014 22:33:01
+2014-03-09 23:17:53	--	Channel #vim: 897 nicks (0 ops, 0 voices, 897 normals)
+2014-03-09 23:17:53	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2014-03-09 23:17:53	--	URL for #vim: http://vi-improved.org
+2014-03-09 23:17:58	--	Mode #vim [+Ccnt]
+2014-03-09 23:17:58	--	Channel created on Sun, 26 Nov 2006 01:42:44
+2014-03-09 23:20:27	◀▬▬	j^2 (~jasghar@cpe-24-27-41-72.austin.res.rr.com) has quit (Quit: for i in `/names` ; do adios $i; done)
+2014-03-09 23:21:22	◀▬▬	krawchyk (~textual@pool-108-51-99-8.washdc.fios.verizon.net) has quit (Quit: away)
+2014-03-09 23:21:37	◀▬▬	introom (~introom@wf229-093.ust.hk) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:23:19	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #vim
+2014-03-09 23:23:19	--	Topic for #vim is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | Vim 7.4.155 http://vim.sf.net | Don't ask to ask! | Before you ask :help, and :helpgrep, and google | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | DONATE: http://www.vim.org/sponsor"
+2014-03-09 23:23:19	--	Topic set by jamessan on Wed, 22 Jan 2014 22:33:01
+2014-03-09 23:23:19	--	Channel #vim: 894 nicks (0 ops, 0 voices, 894 normals)
+2014-03-09 23:23:19	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2014-03-09 23:23:19	--	URL for #vim: http://vi-improved.org
+2014-03-09 23:23:24	--	Mode #vim [+Ccnt]
+2014-03-09 23:23:24	--	Channel created on Sun, 26 Nov 2006 01:42:44
+2014-03-09 23:23:32	--	swook is now known as swook`
+2014-03-09 23:26:49	◀▬▬	archer72_ (~archer72@108.237.10.217) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:26:57	◀▬▬	grep0r (grep0r@bitcoinshell.mooo.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:27:55	◀▬▬	pothibo (~textual@24.48.80.111) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:30:42	◀▬▬	Adaptee_ (~whodare@121.28.132.18) has quit (Read error: Connection reset by peer)
+2014-03-09 23:31:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #vim
+2014-03-09 23:31:00	--	Topic for #vim is "Can't Talk? Get Registered on FreeNode (HOWTO: http://ur1.ca/90niw) | Vim 7.4.155 http://vim.sf.net | Don't ask to ask! | Before you ask :help, and :helpgrep, and google | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | DONATE: http://www.vim.org/sponsor"
+2014-03-09 23:31:00	--	Topic set by jamessan on Wed, 22 Jan 2014 22:33:01
+2014-03-09 23:31:00	--	Channel #vim: 891 nicks (0 ops, 0 voices, 891 normals)
+2014-03-09 23:31:00	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2014-03-09 23:31:00	--	URL for #vim: http://vi-improved.org
+2014-03-09 23:31:06	--	Mode #vim [+Ccnt]
+2014-03-09 23:31:06	--	Channel created on Sun, 26 Nov 2006 01:42:44

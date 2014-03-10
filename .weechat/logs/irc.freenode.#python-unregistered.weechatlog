@@ -59,3 +59,107 @@
 2014-03-09 22:53:13	◀▬▬	blochchain (~enigmuria@c-98-217-163-104.hsd1.ma.comcast.net) has quit (Ping timeout: 264 seconds)
 2014-03-09 22:54:33	◀▬▬	apeeyush (apeeyush@2a00:dcc0:eda:3748:247:48:123:b33f) has quit (Remote host closed the connection)
 2014-03-09 22:54:35	▬▬▶	Blazinghand (~BH@24.6.156.122) has joined #python-unregistered
+2014-03-09 22:55:16	▬▬▶	steven2 (~steven@cpe-74-66-18-119.nyc.res.rr.com) has joined #python-unregistered
+2014-03-09 22:57:03	◀▬▬	Wr4i7h (~abc@207.125.249.5.rev.vodafone.pt) has quit
+2014-03-09 22:58:01	◀▬▬	ninjashogun (~User@catv-212-96-61-236.catv.broadband.hu) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:58:18	▬▬▶	segmond (~segmond@adsl-108-73-160-91.dsl.sfldmi.sbcglobal.net) has joined #python-unregistered
+2014-03-09 22:58:56	◀▬▬	zajn (~zajn@2607:f140:400:b003:e4ac:ae0f:4695:2dd6) has quit (Remote host closed the connection)
+2014-03-09 22:59:43	◀▬▬	segmond (~segmond@adsl-108-73-160-91.dsl.sfldmi.sbcglobal.net) has quit (Max SendQ exceeded)
+2014-03-09 22:59:51	◀▬▬	Ienpw_III (~quassel@resnet-72-143.mta.ca) has quit (Remote host closed the connection)
+2014-03-09 23:00:13	▬▬▶	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has joined #python-unregistered
+2014-03-09 23:00:21	▬▬▶	segmond (~segmond@adsl-108-73-160-91.dsl.sfldmi.sbcglobal.net) has joined #python-unregistered
+2014-03-09 23:01:01	▬▬▶	NBhosting (~nbhosting@D97BCF89.cm-3-4d.dynamic.ziggo.nl) has joined #python-unregistered
+2014-03-09 23:01:48	◀▬▬	notsopvt (~quassel@2.82.2.161) has quit (Remote host closed the connection)
+2014-03-09 23:03:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #python-unregistered
+2014-03-09 23:03:10	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2014-03-09 23:03:10	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 04:44:19
+2014-03-09 23:03:10	--	Channel #python-unregistered: 1046 nicks (1 op, 0 voices, 1045 normals)
+2014-03-09 23:03:24	--	Mode #python-unregistered [+cmnt]
+2014-03-09 23:03:24	--	Channel created on Sat, 05 Feb 2011 19:12:29
+2014-03-09 23:03:52	◀▬▬	nomic (~nomic@host31-48-108-238.range31-48.btcentralplus.com) has quit (Remote host closed the connection)
+2014-03-09 23:03:57	--	hdevalence|away is now known as hdevalence
+2014-03-09 23:05:15	◀▬▬	SquirrelCZECH (~squirrel@ip-89-103-45-17.net.upcbroadband.cz) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-09 23:05:29	▬▬▶	SquirrelCZECH (~squirrel@ip-89-103-45-17.net.upcbroadband.cz) has joined #python-unregistered
+2014-03-09 23:07:01	◀▬▬	frkout (~frkout@101.110.31.120) has quit (Remote host closed the connection)
+2014-03-09 23:07:23	▬▬▶	Sibin (~admin@114.249.146.239) has joined #python-unregistered
+2014-03-09 23:07:33	▬▬▶	frkout (~frkout@101.110.31.250) has joined #python-unregistered
+2014-03-09 23:09:35	◀▬▬	jonDeer (~chatzilla@CPE78cd8e7c0fa0-CM78cd8e7c0f9d.cpe.net.cable.rogers.com) has quit (Quit: ChatZilla 0.9.90.1 [Firefox 27.0.1/20140212131424])
+2014-03-09 23:09:37	◀▬▬	zanny (~zanny@64.9.43.9) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:10:07	◀▬▬	encukou (~quassel-r@ip-213-220-232-24.net.upcbroadband.cz) has quit (Read error: Operation timed out)
+2014-03-09 23:10:09	◀▬▬	ninkotech (~duplo@static-84-242-87-186.net.upcbroadband.cz) has quit (Excess Flood)
+2014-03-09 23:10:29	▬▬▶	ninkotech (~duplo@static-84-242-87-186.net.upcbroadband.cz) has joined #python-unregistered
+2014-03-09 23:10:37	◀▬▬	rajataggarwal (~rajatagga@14.139.82.6) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:11:19	▬▬▶	encukou (~quassel-r@ip-213-220-232-24.net.upcbroadband.cz) has joined #python-unregistered
+2014-03-09 23:11:38	◀▬▬	__mek__ (~mek@c-67-169-12-116.hsd1.ca.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:13:45	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #python-unregistered
+2014-03-09 23:13:45	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2014-03-09 23:13:45	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 04:44:19
+2014-03-09 23:13:45	--	Channel #python-unregistered: 1042 nicks (1 op, 0 voices, 1041 normals)
+2014-03-09 23:13:50	▬▬▶	Quashie (~boingredd@cpe-68-174-70-219.nyc.res.rr.com) has joined #python-unregistered
+2014-03-09 23:13:58	--	Mode #python-unregistered [+cmnt]
+2014-03-09 23:13:58	--	Channel created on Sat, 05 Feb 2011 19:12:29
+2014-03-09 23:15:08	◀▬▬	zypper (~quassel@modemcable210.109-130-66.mc.videotron.ca) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:15:16	◀▬▬	steven2 (~steven@cpe-74-66-18-119.nyc.res.rr.com) has left #python-unregistered
+2014-03-09 23:15:46	◀▬▬	psyprus (~psyprus@199.115.98.226) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:17:53	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #python-unregistered
+2014-03-09 23:17:53	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2014-03-09 23:17:53	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 04:44:19
+2014-03-09 23:17:53	--	Channel #python-unregistered: 1041 nicks (1 op, 0 voices, 1040 normals)
+2014-03-09 23:18:06	--	Mode #python-unregistered [+cmnt]
+2014-03-09 23:18:06	--	Channel created on Sat, 05 Feb 2011 19:12:29
+2014-03-09 23:19:07	▬▬▶	chaobin (chaobin@nat/redhat/x-uxvuijhgwxypkymm) has joined #python-unregistered
+2014-03-09 23:20:30	◀▬▬	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has left #python-unregistered
+2014-03-09 23:20:35	▬▬▶	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has joined #python-unregistered
+2014-03-09 23:20:56	▬▬▶	psyprus (~psyprus@199.115.98.226) has joined #python-unregistered
+2014-03-09 23:21:14	▬▬▶	xrosnight_ (~quassel@120.236.123.130) has joined #python-unregistered
+2014-03-09 23:21:21	◀▬▬	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has left #python-unregistered
+2014-03-09 23:21:48	▬▬▶	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has joined #python-unregistered
+2014-03-09 23:21:51	◀▬▬	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has left #python-unregistered
+2014-03-09 23:22:01	◀▬▬	xrosnight___ (~quassel@120.236.123.133) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:22:37	◀▬▬	viperhr (~viper@193-81-103-6.adsl.highway.telekom.at) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:23:19	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #python-unregistered
+2014-03-09 23:23:19	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2014-03-09 23:23:19	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 04:44:19
+2014-03-09 23:23:19	--	Channel #python-unregistered: 1041 nicks (1 op, 0 voices, 1040 normals)
+2014-03-09 23:23:32	--	Mode #python-unregistered [+cmnt]
+2014-03-09 23:23:32	--	Channel created on Sat, 05 Feb 2011 19:12:29
+2014-03-09 23:23:51	◀▬▬	segmond (~segmond@adsl-108-73-160-91.dsl.sfldmi.sbcglobal.net) has left #python-unregistered
+2014-03-09 23:24:50	▬▬▶	rafaelhbarros (~rafaelhba@2605:6000:fa83:8900:8db9:64ca:1783:c9cb) has joined #python-unregistered
+2014-03-09 23:25:02	▬▬▶	sivy (~sivy@ip68-3-192-187.ph.ph.cox.net) has joined #python-unregistered
+2014-03-09 23:25:28	◀▬▬	sivy (~sivy@ip68-3-192-187.ph.ph.cox.net) has quit (Client Quit)
+2014-03-09 23:25:47	▬▬▶	sivy (~sivy@ip68-3-192-187.ph.ph.cox.net) has joined #python-unregistered
+2014-03-09 23:25:54	◀▬▬	Goopyo (~Goopyo@pool-108-28-33-213.washdc.fios.verizon.net) has quit (Remote host closed the connection)
+2014-03-09 23:27:00	▬▬▶	rezmuh (rezmuh@hjkl.io) has joined #python-unregistered
+2014-03-09 23:27:12	◀▬▬	IceCraft (bsl@unaffiliated/icecraft) has quit (Read error: Operation timed out)
+2014-03-09 23:27:13	◀▬▬	cooper (~jake@unaffiliated/furryfishy) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:27:29	▬▬▶	sandGorgon (~sandGorgo@122.176.244.150) has joined #python-unregistered
+2014-03-09 23:27:55	◀▬▬	pothibo (~textual@24.48.80.111) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 23:28:02	◀▬▬	thomasHorse (thomasHors@snespenguin.caitsith2.com) has quit (Ping timeout: 246 seconds)
+2014-03-09 23:28:02	◀▬▬	rezmuh (rezmuh@hjkl.io) has left #python-unregistered
+2014-03-09 23:28:21	◀▬▬	Wilduck (~erik@pool-96-236-148-151.pitbpa.fios.verizon.net) has quit (Quit: Wilduck)
+2014-03-09 23:28:40	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Read error: Connection reset by peer)
+2014-03-09 23:29:38	▬▬▶	justlooks (b781ff54@gateway/web/freenode/ip.183.129.255.84) has joined #python-unregistered
+2014-03-09 23:29:43	◀▬▬	rafaelhbarros (~rafaelhba@2605:6000:fa83:8900:8db9:64ca:1783:c9cb) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:29:52	◀▬▬	justlooks (b781ff54@gateway/web/freenode/ip.183.129.255.84) has left #python-unregistered
+2014-03-09 23:29:56	▬▬▶	thomasHorse (thomasHors@snespenguin.caitsith2.com) has joined #python-unregistered
+2014-03-09 23:30:08	◀▬▬	w1res (~w1res@c-24-62-87-64.hsd1.ct.comcast.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:30:24	▬▬▶	cooper (~jake@server3.rlygd.net) has joined #python-unregistered
+2014-03-09 23:30:30	◀▬▬	cooper (~jake@server3.rlygd.net) has quit (Changing host)
+2014-03-09 23:30:30	▬▬▶	cooper (~jake@unaffiliated/furryfishy) has joined #python-unregistered
+2014-03-09 23:31:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #python-unregistered
+2014-03-09 23:31:00	--	Topic for #python-unregistered is "Welcome to #python-unregistered! You've been put here because #python requires you to register your nickname with Freenode. For more information about registering on Freenode, ask #freenode. For more information about #python,#python-* moderation, #python-ops."
+2014-03-09 23:31:00	--	Topic set by lvh (~lvh@python/psf/lvh) on Fri, 01 Jul 2011 04:44:19
+2014-03-09 23:31:00	--	Channel #python-unregistered: 1036 nicks (1 op, 0 voices, 1035 normals)
+2014-03-09 23:31:14	--	Mode #python-unregistered [+cmnt]
+2014-03-09 23:31:14	--	Channel created on Sat, 05 Feb 2011 19:12:29
+2014-03-09 23:31:52	◀▬▬	Andyrez (~andyrez@108.170.47.122) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:32:43	◀▬▬	cooper (~jake@unaffiliated/furryfishy) has quit (Excess Flood)
+2014-03-09 23:33:29	▬▬▶	Sibin (~admin@114.249.146.239) has joined #python-unregistered
+2014-03-09 23:33:31	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:34:10	◀▬▬	athst (~bobfet1@50-0-88-192.dsl.dynamic.sonic.net) has quit (Quit: athst)
+2014-03-09 23:34:19	▬▬▶	jenskarlsen (~kj@S010690840dd3af64.vc.shawcable.net) has joined #python-unregistered
+2014-03-09 23:34:26	▬▬▶	valiant_falstaf1 (~valiant_f@c-71-237-102-101.hsd1.co.comcast.net) has joined #python-unregistered
+2014-03-09 23:34:30	◀▬▬	jonatas_oliveira (~jonatas_o@189.124.182.103) has quit (Remote host closed the connection)
+2014-03-09 23:34:34	◀▬▬	jenskarlsen (~kj@S010690840dd3af64.vc.shawcable.net) has left #python-unregistered
+2014-03-09 23:34:39	▬▬▶	cooper (~jake@server3.rlygd.net) has joined #python-unregistered
+2014-03-09 23:34:47	▬▬▶	mildfate (~Adium@pool-96-241-195-219.washdc.fios.verizon.net) has joined #python-unregistered

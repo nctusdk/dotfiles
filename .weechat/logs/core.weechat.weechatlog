@@ -487,3 +487,116 @@
 2014-03-09 22:46:55		perl scripts loaded: beep, buffers, highmon, iset
 2014-03-09 22:46:55		python scripts loaded: allquery, buffer_autoclose, text_item
 2014-03-09 22:46:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-09 23:02:36		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-03-09 23:02:52		Options saved to sec.conf
+2014-03-09 23:02:52		Options saved to weechat.conf
+2014-03-09 23:02:52		Options saved to plugins.conf
+2014-03-09 23:02:52		Options saved to alias.conf
+2014-03-09 23:02:52		Options saved to aspell.conf
+2014-03-09 23:02:52		Options saved to charset.conf
+2014-03-09 23:02:52		Options saved to irc.conf
+2014-03-09 23:02:52		Options saved to logger.conf
+2014-03-09 23:02:52		Options saved to relay.conf
+2014-03-09 23:02:52		Options saved to rmodifier.conf
+2014-03-09 23:02:52		Options saved to script.conf
+2014-03-09 23:02:52		Options saved to xfer.conf
+2014-03-09 23:02:52		Options saved to buffers.conf
+2014-03-09 23:02:52		Options saved to iset.conf
+2014-03-09 23:02:54		python: scripts unloaded
+2014-03-09 23:02:54		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-03-09 23:02:54		perl: scripts unloaded
+2014-03-09 23:02:55		script: 273 scripts for WeeChat 0.4.3
+2014-03-09 23:02:55		perl scripts loaded: beep, buffers, highmon, iset
+2014-03-09 23:02:55		python scripts loaded: allquery, buffer_autoclose, text_item
+2014-03-09 23:02:55		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-09 23:08:49		Option changed: weechat.color.chat_nick_colors = "25,31,37,43,49,61,67,73,79,85,97,103,109,115,121,133,139,145,151,157,163,169,175,181,187,193,199,205,211,217,223,229"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-03-09 23:08:54		Options saved to sec.conf
+2014-03-09 23:08:54		Options saved to weechat.conf
+2014-03-09 23:08:54		Options saved to plugins.conf
+2014-03-09 23:08:54		Options saved to alias.conf
+2014-03-09 23:08:54		Options saved to aspell.conf
+2014-03-09 23:08:54		Options saved to charset.conf
+2014-03-09 23:08:54		Options saved to irc.conf
+2014-03-09 23:08:54		Options saved to logger.conf
+2014-03-09 23:08:54		Options saved to relay.conf
+2014-03-09 23:08:54		Options saved to rmodifier.conf
+2014-03-09 23:08:54		Options saved to script.conf
+2014-03-09 23:08:54		Options saved to xfer.conf
+2014-03-09 23:08:54		Options saved to buffers.conf
+2014-03-09 23:08:54		Options saved to iset.conf
+2014-03-09 23:13:16		python: loading script "/home/dagnachew/.weechat/python/colorize_nicks.py"
+2014-03-09 23:13:16		python: registered script "colorize_nicks", version 14 (Use the weechat nick colors in the chat area)
+2014-03-09 23:13:28		python: scripts unloaded
+2014-03-09 23:13:28		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-03-09 23:13:29		perl: scripts unloaded
+2014-03-09 23:13:30		script: 273 scripts for WeeChat 0.4.3
+2014-03-09 23:13:30		perl scripts loaded: beep, buffers, highmon, iset
+2014-03-09 23:13:30		python scripts loaded: allquery, buffer_autoclose, colorize_nicks, text_item
+2014-03-09 23:13:30		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-09 23:15:23		Option changed: irc.look.color_nicks_in_nicklist = on  (default: off)
+2014-03-09 23:17:13		Option changed: weechat.color.chat_nick_colors = "25,31,37,43,49,61,67,73,79,85,97,103,109,115,121,133,139,145,151,157,163,169,175,181,187,193,199,205,211,217,223,229"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-03-09 23:17:18		Options saved to sec.conf
+2014-03-09 23:17:18		Options saved to weechat.conf
+2014-03-09 23:17:18		Options saved to plugins.conf
+2014-03-09 23:17:18		Options saved to alias.conf
+2014-03-09 23:17:18		Options saved to aspell.conf
+2014-03-09 23:17:18		Options saved to charset.conf
+2014-03-09 23:17:18		Options saved to irc.conf
+2014-03-09 23:17:18		Options saved to logger.conf
+2014-03-09 23:17:18		Options saved to relay.conf
+2014-03-09 23:17:18		Options saved to rmodifier.conf
+2014-03-09 23:17:18		Options saved to script.conf
+2014-03-09 23:17:18		Options saved to xfer.conf
+2014-03-09 23:17:18		Options saved to buffers.conf
+2014-03-09 23:17:18		Options saved to iset.conf
+2014-03-09 23:17:38		python: scripts unloaded
+2014-03-09 23:17:38		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-03-09 23:17:38		perl: scripts unloaded
+2014-03-09 23:17:39		script: 273 scripts for WeeChat 0.4.3
+2014-03-09 23:17:39		perl scripts loaded: beep, buffers, highmon, iset
+2014-03-09 23:17:40		python scripts loaded: allquery, buffer_autoclose, colorize_nicks, text_item
+2014-03-09 23:17:40		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-09 23:22:49		Option changed: weechat.color.chat_nick_colors = "31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-03-09 23:23:02		Options saved to sec.conf
+2014-03-09 23:23:02		Options saved to weechat.conf
+2014-03-09 23:23:02		Options saved to plugins.conf
+2014-03-09 23:23:02		Options saved to alias.conf
+2014-03-09 23:23:02		Options saved to aspell.conf
+2014-03-09 23:23:02		Options saved to charset.conf
+2014-03-09 23:23:02		Options saved to irc.conf
+2014-03-09 23:23:02		Options saved to logger.conf
+2014-03-09 23:23:02		Options saved to relay.conf
+2014-03-09 23:23:02		Options saved to rmodifier.conf
+2014-03-09 23:23:02		Options saved to script.conf
+2014-03-09 23:23:02		Options saved to xfer.conf
+2014-03-09 23:23:02		Options saved to buffers.conf
+2014-03-09 23:23:02		Options saved to iset.conf
+2014-03-09 23:23:04		python: scripts unloaded
+2014-03-09 23:23:04		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-03-09 23:23:04		perl: scripts unloaded
+2014-03-09 23:23:05		script: 273 scripts for WeeChat 0.4.3
+2014-03-09 23:23:05		perl scripts loaded: beep, buffers, highmon, iset
+2014-03-09 23:23:06		python scripts loaded: allquery, buffer_autoclose, colorize_nicks, text_item
+2014-03-09 23:23:06		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer
+2014-03-09 23:30:40		Option changed: weechat.color.chat_nick_colors = "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue,31,35,38,40,49,63,70,80,92,99,112,126,130,138,142,148,160,162,167,169,174,176,178,184,186,210,212,215,247"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2014-03-09 23:30:44		Options saved to sec.conf
+2014-03-09 23:30:44		Options saved to weechat.conf
+2014-03-09 23:30:44		Options saved to plugins.conf
+2014-03-09 23:30:44		Options saved to alias.conf
+2014-03-09 23:30:44		Options saved to aspell.conf
+2014-03-09 23:30:44		Options saved to charset.conf
+2014-03-09 23:30:44		Options saved to irc.conf
+2014-03-09 23:30:44		Options saved to logger.conf
+2014-03-09 23:30:44		Options saved to relay.conf
+2014-03-09 23:30:44		Options saved to rmodifier.conf
+2014-03-09 23:30:44		Options saved to script.conf
+2014-03-09 23:30:44		Options saved to xfer.conf
+2014-03-09 23:30:44		Options saved to buffers.conf
+2014-03-09 23:30:44		Options saved to iset.conf
+2014-03-09 23:30:46		python: scripts unloaded
+2014-03-09 23:30:46		Highmon buffer has been closed but output is still set to buffer, unusual results may occur. To recreate the buffer use /highmon fix
+2014-03-09 23:30:46		perl: scripts unloaded
+2014-03-09 23:30:47		script: 273 scripts for WeeChat 0.4.3
+2014-03-09 23:30:47		perl scripts loaded: beep, buffers, highmon, iset
+2014-03-09 23:30:47		python scripts loaded: allquery, buffer_autoclose, colorize_nicks, text_item
+2014-03-09 23:30:47		Plugins loaded: alias, aspell, charset, fifo, guile, irc, logger, lua, perl, python, relay, rmodifier, ruby, script, tcl, xfer

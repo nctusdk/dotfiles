@@ -330,3 +330,225 @@
 2014-03-09 22:54:37	▬▬▶	anonymous (~anonymous@pool-72-93-45-96.bstnma.east.verizon.net) has joined #archlinux
 2014-03-09 22:54:38	◀▬▬	jasonwryan (~jasonwrya@fsf/member/jasonwryan) has quit (Ping timeout: 240 seconds)
 2014-03-09 22:54:50	--	anonymous is now known as Guest1386
+2014-03-09 22:55:30	◀▬▬	Cyber54170 (~machine@190.84.155.150) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:55:31	◀▬▬	Guest1386 (~anonymous@pool-72-93-45-96.bstnma.east.verizon.net) has quit (Client Quit)
+2014-03-09 22:56:32	dividebyzer0	Hey guys, any idea what package "import" comes in? Figured it'll be an X package of some sort. I need the "import" that can  "capture some or all of an X server screen and save the image to a file."
+2014-03-09 22:56:50	◀▬▬	frank604 (~frank604_@S0106d4ca6d1c8d78.wk.shawcable.net) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:57:39	▬▬▶	firecat53 (~firecat53@66.85.170.106) has joined #archlinux
+2014-03-09 22:57:46	▬▬▶	notadog (~jc51@58.168.86.140) has joined #archlinux
+2014-03-09 22:57:52	JackLFrost	dividebyzer0, imagemagick
+2014-03-09 22:58:01	mefistofeles	yeah
+2014-03-09 22:58:03	◀▬▬	r0ok (~rook@c-24-118-232-172.hsd1.mn.comcast.net) has quit (Quit: Lost terminal)
+2014-03-09 22:58:06	mefistofeles	dividebyzer0: use pacman -Qo
+2014-03-09 22:58:06	JackLFrost	Or you can use scrot.
+2014-03-09 22:58:17	◀▬▬	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:58:27	JackLFrost	A smaller package if all you need is a screenshot tool
+2014-03-09 22:58:32	--	iabovu is now known as candronikos
+2014-03-09 22:58:36	notadog	Can't see anything in update news, but after sudo pacman -Syu many programs complain of missing libEGL.so.1, such as vim, emacs, etc.
+2014-03-09 22:58:38	◀▬▬	seburb (~seburb@g231240249.adsl.alicedsl.de) has quit (Ping timeout: 241 seconds)
+2014-03-09 22:58:41	◀▬▬	absynthe_faery (~absynthe_@unaffiliated/absynthe-faery/x-6447756) has quit (Remote host closed the connection)
+2014-03-09 22:58:55	halosghost	notadog: have you looked through your pacman log?
+2014-03-09 22:58:57	◀▬▬	GI_Jack (~GI_Jack@pdpc/supporter/active/gi-jack) has quit (Quit: Leaving)
+2014-03-09 22:59:09	dividebyzer0	Scrot is giving my trouble, thank you Jack. :) I'll head over to imagemagick and see what's up. Trying to find an easy way to just tap "print screen" and save the image somewhere. Got a script for it but it calls for "import", which I don't have and am having trouble locating.
+2014-03-09 22:59:45	notadog	I read the output of update process carefully halosghost, and there was nothing there. Is it more verbose in the log? In the past anything important has either been in news or stdout during update.
+2014-03-09 23:00:16	◀▬▬	TomaszC (~tomek@bsw14.neoplus.adsl.tpnet.pl) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:00:25	◀▬▬	hiptobecubic (~john@unaffiliated/hiptobecubic) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:00:26	JackLFrost	dividebyzer0, interesting, what kind of trouble do you have with scrot?
+2014-03-09 23:00:30	halosghost	notadog: for the most part, that is the case
+2014-03-09 23:00:40	halosghost	notadog: `pacman -Q linux && uname -r`
+2014-03-09 23:00:57	notadog	3.13-6-1 i think, but ill check
+2014-03-09 23:01:01	▬▬▶	stianhj (~stian@147.87.202.84.customer.cdi.no) has joined #archlinux
+2014-03-09 23:01:06	◀▬▬	asdil12 (~asdil12@p54BEDC6C.dip0.t-ipconnect.de) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:01:18	notadog	linux 3.13.6-1
+2014-03-09 23:01:20	notadog	3.13.6-1-ARCH
+2014-03-09 23:01:25	notadog	Yeah.
+2014-03-09 23:01:30	halosghost	well, beats me
+2014-03-09 23:01:32	halosghost	sorry :(
+2014-03-09 23:01:40	notadog	halosghost: thanks anyway :)
+2014-03-09 23:01:42	◀▬▬	thrakcat1ack (~pi@193-154-254-92.adsl.highway.telekom.at) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:01:57	▬▬▶	cnv (~cnv@d24-36-116-173.home1.cgocable.net) has joined #archlinux
+2014-03-09 23:02:05	▬▬▶	TomaszC (~tomek@btc202.neoplus.adsl.tpnet.pl) has joined #archlinux
+2014-03-09 23:02:08	halosghost	notadog: sure, sorry I couldn't be more helpful. Others here will be, just be patient
+2014-03-09 23:02:25	dividebyzer0	JackLFrost: My God, thank you for mentioning twice. Wow... been on a coding bender for almost 24 hours and apparently I DID get it working properly last night. I just didn't remember it. Boy. Thank you again sir! Just need to script it for the bind and I'm good to go! Very much appreciated.
+2014-03-09 23:03:09	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 23:03:09	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 23:03:09	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 23:03:10	--	Channel #archlinux: 1668 nicks (1 op, 0 voices, 1667 normals)
+2014-03-09 23:03:10	--	Mode #archlinux [+Ccnt]
+2014-03-09 23:03:10	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 23:03:25	▬▬▶	thrakcattack (~pi@212-197-184-46.adsl.highway.telekom.at) has joined #archlinux
+2014-03-09 23:03:29	◀▬▬	cnv (~cnv@d24-36-116-173.home1.cgocable.net) has left #archlinux
+2014-03-09 23:03:33	◀▬▬	na_th_an_ (~nathan@d118-75-207-49.try.wideopenwest.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:03:44	JackLFrost	No problem. I've rewritten a script from scratch once and forgon about it.
+2014-03-09 23:03:53	notadog	halosghost: thanks, hopefully someone knows :(
+2014-03-09 23:04:17	◀▬▬	na_th_an (~nathan@d118-75-207-49.try.wideopenwest.com) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:04:21	dividebyzer0	Yeah, it's been one of those weeks. Thanks again man. I'll be lurking for a bit so just throw me a call if you need anything ;)
+2014-03-09 23:05:15	◀▬▬	SquirrelCZECH (~squirrel@ip-89-103-45-17.net.upcbroadband.cz) has quit (Quit: No Ping reply in 180 seconds.)
+2014-03-09 23:05:29	▬▬▶	SquirrelCZECH (~squirrel@ip-89-103-45-17.net.upcbroadband.cz) has joined #archlinux
+2014-03-09 23:06:01	▬▬▶	asdil12 (~asdil12@p54BEDDD0.dip0.t-ipconnect.de) has joined #archlinux
+2014-03-09 23:07:01	◀▬▬	botsi (~ites@2a02:a03f:30e2:2200:9187:68e8:c320:c92c) has quit (Ping timeout: 245 seconds)
+2014-03-09 23:07:07	buhman	agrh, spamming udp freaks out my shitty networking hardware.
+2014-03-09 23:07:11	◀▬▬	bgs100 (~bgs@unaffiliated/bgs100) has quit (Quit: bgs100)
+2014-03-09 23:07:14	▬▬▶	Sibin (~admin@114.249.146.239) has joined #archlinux
+2014-03-09 23:07:17	◀▬▬	oldherl (~oldherl@58.196.142.42) has quit (Quit: Quit)
+2014-03-09 23:08:09	▬▬▶	S0-2 (~sgra@unaffiliated/sgra) has joined #archlinux
+2014-03-09 23:08:20	notadog	anyone had trouble with complaints of missing libEGL.so.1 after updating recently? 80% of programs I have tried don't work now....
+2014-03-09 23:08:36	buhman	notadog: which video driver are you using?
+2014-03-09 23:09:19	holomorph	google the error!! D:<
+2014-03-09 23:09:32	buhman	error the google
+2014-03-09 23:09:37	◀▬▬	zanny (~zanny@64.9.43.9) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:09:45	buhman	<:D
+2014-03-09 23:09:54	JackLFrost	eagle the gerror!
+2014-03-09 23:10:23	▬▬▶	nyloc (~quassel@p57B4F067.dip0.t-ipconnect.de) has joined #archlinux
+2014-03-09 23:10:32	buhman	[  6]  0.0-10.0 sec  0.00  ­ûs  14745458810060363776 Bytes/sec
+2014-03-09 23:10:38	buhman	them jijgerbits
+2014-03-09 23:10:46	buhman	warp speed
+2014-03-09 23:11:09	▬▬▶	jrmrjnck (~jonathan@66-90-216-36.dyn.grandenetworks.net) has joined #archlinux
+2014-03-09 23:11:11	eagle	indeed
+2014-03-09 23:11:13	◀▬▬	_nyloc_ (~quassel@p3EE2CD6B.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:11:13	◀▬▬	WinstonSmith_ (~WinstonSm@bl9-220-28.dsl.telepac.pt) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:11:25	buhman	negative microseconds
+2014-03-09 23:11:30	buhman	red matter
+2014-03-09 23:11:54	◀▬▬	jakedust (~Jake@unaffiliated/jakedust) has quit (Quit: jakedust)
+2014-03-09 23:12:05	notadog	I have been erroring the googles for 5 hours between this morning and last night buhman :P Using catalyst atm. What makes you ask about driver? Using locate I know that libEGL isn't on my system anymore, but it was last night.
+2014-03-09 23:12:12	buhman	notadog: catalyst
+2014-03-09 23:12:17	buhman	that's all you fscking had to say
+2014-03-09 23:12:27	buhman	notadog: in that case, catalyst should provide libEGL.so; fix catalyst
+2014-03-09 23:12:30	buhman	!next
+2014-03-09 23:12:31	phrik	Another satisfied customer! NEXT!
+2014-03-09 23:13:15	notadog	buhman: hmmmm ok. I am one version behind what xorg my catalyst version supports now that I think about it, so maybe thats why.
+2014-03-09 23:13:26	buhman	!give notadog sos
+2014-03-09 23:13:28	phrik	notadog: _Never_ -Sy when installing! http://gist.io/5660494
+2014-03-09 23:13:44	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 23:13:44	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 23:13:44	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 23:13:44	--	Channel #archlinux: 1664 nicks (1 op, 0 voices, 1663 normals)
+2014-03-09 23:13:45	--	Mode #archlinux [+Ccnt]
+2014-03-09 23:13:45	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 23:13:48	buhman	notadog: also, upgrading xorg won't make libEGL magically appear
+2014-03-09 23:14:23	notadog	hmmmmm.
+2014-03-09 23:14:32	buhman	<hint>catalyst</hint>
+2014-03-09 23:14:40	buhman	<HINT>catalyst</HINT>
+2014-03-09 23:15:47	notadog	I get it, you d on't have to be rude, and I didn't -sy a single package, I never do that. I ran a full system upgrade, -Syu, is that incorrect?
+2014-03-09 23:16:00	◀▬▬	shiver (~rob@119.47.119.210) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 23:16:04	◀▬▬	sabboo (~pete@2001:558:6033:49:24aa:7344:54d4:ab28) has quit (Quit: Leaving)
+2014-03-09 23:16:05	▬▬▶	WinstonSmith (~WinstonSm@unaffiliated/winstonsmith) has joined #archlinux
+2014-03-09 23:16:21	sudokode	hm
+2014-03-09 23:16:24	▬▬▶	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2014-03-09 23:16:28	▬▬▶	krabador (~krabador@unaffiliated/krabador) has joined #archlinux
+2014-03-09 23:16:28	sudokode	I can't seem to copy xattr
+2014-03-09 23:16:54	▬▬▶	crxz0193 (~crxz0193@203.247.149.152) has joined #archlinux
+2014-03-09 23:16:56	buhman	notadog: pacman -Qmq
+2014-03-09 23:17:08	sudokode	touch foo ; chattr +s foo ; lsattr foo ; cp -a --preserve=all foo bar ; lsattr bar
+2014-03-09 23:17:31	◀▬▬	ruukasu (~ruukasu@unaffiliated/ruukasu) has quit (Quit: Leaving)
+2014-03-09 23:17:52	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 23:17:52	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 23:17:52	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 23:17:52	--	Channel #archlinux: 1666 nicks (1 op, 0 voices, 1665 normals)
+2014-03-09 23:17:53	--	Mode #archlinux [+Ccnt]
+2014-03-09 23:17:53	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 23:17:59	sudokode	anyone else getting this problem?
+2014-03-09 23:18:05	▬▬▶	justinzane (~justinzan@tiny.justinzane.com) has joined #archlinux
+2014-03-09 23:18:11	buhman	problem?
+2014-03-09 23:18:16	sudokode	is this normal?
+2014-03-09 23:18:31	notadog	buhman there are a few foreign packages
+2014-03-09 23:18:49	buhman	notadog: that is the list of packages that you are responsible for, every time you -Syu
+2014-03-09 23:19:08	◀▬▬	lemao (~lemao@173-13-115-214-NewEngland.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2014-03-09 23:19:09	sudokode	aur aur aur
+2014-03-09 23:19:37	notadog	buhman so for example, vim I have installed from official repos, so should vim be broken, after running pacman -Syu, and not playing aroudn with anything else?
+2014-03-09 23:19:37	◀▬▬	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:19:46	buhman	possibly
+2014-03-09 23:19:58	▬▬▶	newtoarch (~jmerali@209-6-50-82.c3-0.smr-ubr1.sbo-smr.ma.cable.rcn.com) has joined #archlinux
+2014-03-09 23:20:01	buhman	wait what
+2014-03-09 23:20:02	buhman	no
+2014-03-09 23:20:04	◀▬▬	dansamo (~root@121.163.89.219) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:20:34	▬▬▶	amcelwee_ (~adam@cpe-72-179-35-145.austin.res.rr.com) has joined #archlinux
+2014-03-09 23:20:35	buhman	notadog: if vim was not in the -Qm list, then that question is completely irrelevant
+2014-03-09 23:20:55	▬▬▶	jasonwryan (~jasonwrya@fsf/member/jasonwryan) has joined #archlinux
+2014-03-09 23:20:57	▬▬▶	ruukasu (~ruukasu@cpe-76-179-90-178.maine.res.rr.com) has joined #archlinux
+2014-03-09 23:20:57	◀▬▬	ruukasu (~ruukasu@cpe-76-179-90-178.maine.res.rr.com) has quit (Changing host)
+2014-03-09 23:20:57	▬▬▶	ruukasu (~ruukasu@unaffiliated/ruukasu) has joined #archlinux
+2014-03-09 23:21:01	◀▬▬	Conker (~Conker@S0106c86000ce4307.wp.shawcable.net) has quit (Quit: Leaving)
+2014-03-09 23:21:14	▬▬▶	jxn (~jxn@xdsl-89-0-237-162.netcologne.de) has joined #archlinux
+2014-03-09 23:21:15	holomorph	lol
+2014-03-09 23:21:45	notadog	it wasn't. I thought you were saying that my packages (that you thought were foreign) were broken because I was neglecting to update them to match the version of libEGL.so.1 that is on my system.
+2014-03-09 23:21:57	newtoarch	++
+2014-03-09 23:21:59	buhman	wat
+2014-03-09 23:22:08	buhman	is that a quote?
+2014-03-09 23:22:11	buhman	did I say that?
+2014-03-09 23:22:25	▬▬▶	poopster (~MrPoopAlo@75.119.11.212) has joined #archlinux
+2014-03-09 23:22:42	buhman	notadog: invalid strawman argument is invalid.
+2014-03-09 23:22:49	--	thevdude is now known as jaybird
+2014-03-09 23:22:57	buhman	newtoarch: again 1) fix catalyst 2) profit
+2014-03-09 23:23:01	▬▬▶	eric_ (~eric@c-24-129-37-132.hsd1.fl.comcast.net) has joined #archlinux
+2014-03-09 23:23:01	--	jaybird is now known as thevdude
+2014-03-09 23:23:18	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 23:23:18	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 23:23:18	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 23:23:18	--	Channel #archlinux: 1670 nicks (1 op, 0 voices, 1669 normals)
+2014-03-09 23:23:19	--	Mode #archlinux [+Ccnt]
+2014-03-09 23:23:19	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 23:23:29	notadog	No, I just said "i thouoght you were saying", I was acknowledging that I am fairly new to linux, and may have misunderstood your question. So can you calm down and get off of your high horse?
+2014-03-09 23:23:30	▬▬▶	Repentinus (~repentinu@cpc4-broo8-2-0-cust212.14-2.cable.virginm.net) has joined #archlinux
+2014-03-09 23:23:52	◀▬▬	akurei (~akurei@94.242.205.235) has quit (Quit: Konversation terminated!)
+2014-03-09 23:24:03	buhman	notadog: #56, welcome
+2014-03-09 23:24:08	◀▬▬	jxn_ (~jxn@xdsl-89-0-234-143.netcologne.de) has quit (Ping timeout: 240 seconds)
+2014-03-09 23:24:24	notadog	buhman: ?
+2014-03-09 23:24:25	◀▬▬	untitaker (~untitaker@91-113-2-147.adsl.highway.telekom.at) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:24:37	▬▬▶	kartongsaft (~kartongsa@213-67-227-116-no157.tbcn.telia.com) has joined #archlinux
+2014-03-09 23:24:46	▬▬▶	lemao (~lemao@173-13-115-214-NewEngland.hfc.comcastbusiness.net) has joined #archlinux
+2014-03-09 23:25:23	◀▬▬	notobvious (~notobviou@212.252.119.134) has quit (Quit: adieu)
+2014-03-09 23:25:44	◀▬▬	dividebyzer0 (~root@nc-76-3-214-183.dhcp.embarqhsd.net) has quit (Quit: Lost terminal)
+2014-03-09 23:26:34	gllt	http://i.imgur.com/g1Urrs7.png http://i.imgur.com/mfOsvuc.png why q and x tho
+2014-03-09 23:26:49	◀▬▬	archer72_ (~archer72@108.237.10.217) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:26:57	◀▬▬	grep0r (grep0r@bitcoinshell.mooo.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 23:27:03	buhman	gllt: looks like your locale is broken
+2014-03-09 23:27:12	◀▬▬	IceCraft (bsl@unaffiliated/icecraft) has quit (Read error: Operation timed out)
+2014-03-09 23:27:13	◀▬▬	n0x0ff (~n0x0ff@AToulouse-653-1-327-192.w83-205.abo.wanadoo.fr) has quit (Quit: Lost terminal)
+2014-03-09 23:27:14	buhman	gllt: which TE is that?
+2014-03-09 23:27:23	gllt	buhman: except i spent forever making sure it wasn't broken
+2014-03-09 23:27:34	buhman	still broke it somehow
+2014-03-09 23:27:44	gllt	in the X screenshot urxvt in the tty, well, it's a tty. dvtm is the program not working
+2014-03-09 23:27:52	gllt	buhman yeah idk wtf to do i googled for hours yesterday
+2014-03-09 23:27:59	gllt	also it doesn't work in fbterm either
+2014-03-09 23:28:06	gllt	works fine in X terms all day long
+2014-03-09 23:28:09	buhman	oh
+2014-03-09 23:28:13	◀▬▬	sing (~sing@41.35.129.124) has quit (Remote host closed the connection)
+2014-03-09 23:28:15	buhman	so you're saying it's broken on the linux console
+2014-03-09 23:28:20	gllt	yes
+2014-03-09 23:28:33	buhman	is your locale the same?
+2014-03-09 23:28:40	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Read error: Connection reset by peer)
+2014-03-09 23:28:45	◀▬▬	delluminatus (luke@2604:180::39bc:e05b) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:28:49	gllt	everything spits out en_US.UTF-8
+2014-03-09 23:28:53	gllt	as i configured it
+2014-03-09 23:29:13	◀▬▬	kartongsaft (~kartongsa@213-67-227-116-no157.tbcn.telia.com) has quit (Ping timeout: 264 seconds)
+2014-03-09 23:29:13	buhman	does $TERM change appropriately?
+2014-03-09 23:29:20	buhman	(are you using the correct termcap?)
+2014-03-09 23:29:31	gllt	there's where my knowledge ends and my googling begins!
+2014-03-09 23:29:39	▬▬▶	CaptainTacoSauce (~justin@24-107-8-223.dhcp.stls.mo.charter.com) has joined #archlinux
+2014-03-09 23:29:43	◀▬▬	lemao (~lemao@173-13-115-214-NewEngland.hfc.comcastbusiness.net) has quit (Ping timeout: 265 seconds)
+2014-03-09 23:30:10	◀▬▬	notadog (~jc51@58.168.86.140) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 23:30:41	▬▬▶	zyxelthrone (~zyxelthro@cpe-68-175-97-216.nyc.res.rr.com) has joined #archlinux
+2014-03-09 23:30:59	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 23:30:59	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 23:30:59	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:48
+2014-03-09 23:31:00	--	Channel #archlinux: 1660 nicks (1 op, 0 voices, 1659 normals)
+2014-03-09 23:31:00	--	Mode #archlinux [+Ccnt]
+2014-03-09 23:31:00	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 23:31:01	▬▬▶	realrealjerry (~Indo_sr@117.136.50.35) has joined #archlinux
+2014-03-09 23:31:14	◀▬▬	CaptainTacoSauce (~justin@24-107-8-223.dhcp.stls.mo.charter.com) has quit (Remote host closed the connection)
+2014-03-09 23:31:27	gllt	aw snap buhman thats it
+2014-03-09 23:31:35	buhman	of course
+2014-03-09 23:31:41	◀▬▬	kmshanah (~kmshanah@ppp59-167-139-100.static.internode.on.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 23:31:50	gllt	thank you SO MUCH, apparently I need to learn about setting my $TERM variable properly in linux console vs urxvt and other term emulators in X
+2014-03-09 23:32:42	rabbitear_sdf	yes gllt works when you least expect that to be the case too
+2014-03-09 23:33:29	▬▬▶	Sibin (~admin@114.249.146.239) has joined #archlinux
+2014-03-09 23:33:31	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:33:56	◀▬▬	realrealjerry (~Indo_sr@117.136.50.35) has quit (Read error: Connection reset by peer)
+2014-03-09 23:33:59	▬▬▶	Sibin (~admin@114.249.146.239) has joined #archlinux
+2014-03-09 23:34:05	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:34:27	▬▬▶	kmshanah (~kmshanah@ppp59-167-139-100.static.internode.on.net) has joined #archlinux
+2014-03-09 23:34:37	▬▬▶	owen__ (~owen@66-227-193-210.dhcp.bycy.mi.charter.com) has joined #archlinux
+2014-03-09 23:34:41	▬▬▶	Sibin (~admin@114.249.146.239) has joined #archlinux
+2014-03-09 23:34:43	◀▬▬	Sibin (~admin@114.249.146.239) has quit (Max SendQ exceeded)
+2014-03-09 23:34:47	◀▬▬	CTtechguy_ (~CTtechguy@unaffiliated/cttechguy) has quit (Remote host closed the connection)

@@ -95,3 +95,50 @@
 2014-03-09 22:51:55	dagnachew	talisein: bitlbee is worhted in my opinion for icq who has more users
 2014-03-09 22:52:18	talisein	sure
 2014-03-09 22:52:29	talisein	i am antisocial, even online myself lol
+2014-03-09 23:04:43	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:04:43	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:04:43	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:04:43	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:04:45	--	Mode #weechat [+cnt]
+2014-03-09 23:04:45	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:04:50	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:04:50	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:06:00	◀▬▬	pdq (CND@unaffiliated/pdq) has quit (Read error: Connection reset by peer)
+2014-03-09 23:08:17	▬▬▶	pdq (CND@208.98.9.84) has joined #weechat
+2014-03-09 23:09:25	dagnachew	talisein: my nick list in the nick buffer is not colored
+2014-03-09 23:11:34	dagnachew	guys how can I put color in the nicklist buffer ?
+2014-03-09 23:11:39	Liam-	What does "if your script is doing something blocking (like fetching URL), you must use function hook_process (or hook_process_hashtable) to not block WeeChat" mean?
+2014-03-09 23:12:06	Liam-	Does that mean if my process involves external content, make it so Weechat doesn't hang?
+2014-03-09 23:12:50	r3m	dagnachew: maybe this script http://weechat.org/scripts/source/colorize_nicks.py.html/
+2014-03-09 23:13:26	r3m	no im wrong
+2014-03-09 23:14:09	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:14:09	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:14:09	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:14:09	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:14:09	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:14:09	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:14:10	--	Mode #weechat [+cnt]
+2014-03-09 23:14:10	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:14:21	dagnachew	r3m: I installed it
+2014-03-09 23:14:39	dagnachew	r3m: but my nicklist is all same color in the buffer
+2014-03-09 23:14:50	r3m	yes im wrong dagnachew
+2014-03-09 23:14:53	r3m	here is the option
+2014-03-09 23:14:58	r3m	/set irc.look.color_nicks_in_nicklist on
+2014-03-09 23:15:25	dagnachew	hello
+2014-03-09 23:15:56	dagnachew	r3m the colors are there but ouch I am grabing nice colors 
+2014-03-09 23:16:21	r3m	dagnachew: you can choose a range of color
+2014-03-09 23:16:50	r3m	here;s mine
+2014-03-09 23:16:54	r3m	/set weechat.color.chat_nick_colors 25,31,37,43,49,61,67,73,79,85,97,103,109,115,121,133,139,145,151,157,163,169,175,181,187,193,199,205,211,217,223,229
+2014-03-09 23:16:58	dagnachew	r3m you have nice colors to suggest ? this one are magneta yellow green ouch, I want solarized style
+2014-03-09 23:17:35	dagnachew	r3m: brb see what are your colors
+2014-03-09 23:17:36	dagnachew	brb
+2014-03-09 23:18:14	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #weechat
+2014-03-09 23:18:14	--	Topic for #weechat is "http://weechat.org/ | Latest stable version: 0.4.3 | English support channel, *ONLY* about WeeChat software | Please read docs before asking! | Bug reports are welcome ONLY for latest stable or devel | Off-topic chan: #weechat-offtopic | Fingerprint for gpg key used to sign packages: A9AB 5AB7 78FA 5C35 22FD 0378 F82F 4B16 DEC4 08F8"
+2014-03-09 23:18:14	--	Topic set by FlashCode (~FlashCode@weechat.org) on Sun, 09 Feb 2014 04:57:06
+2014-03-09 23:18:14	--	Channel #weechat: 474 nicks (4 ops, 1 voice, 469 normals)
+2014-03-09 23:18:14	--	PvNotice(ChanServ): Welcome to WeeChat english support channel. IMPORTANT: you *MUST* have read docs and FAQ before asking something on this channel! Read them at: http://weechat.org/doc/
+2014-03-09 23:18:14	--	URL for #weechat: http://www.weechat.org/
+2014-03-09 23:18:16	--	Mode #weechat [+cnt]
+2014-03-09 23:18:16	--	Channel created on Sun, 26 Nov 2006 01:42:51
+2014-03-09 23:22:49	--	thevdude is now known as jaybird
+2014-03-09 23:23:01	--	jaybird is now known as thevdude
