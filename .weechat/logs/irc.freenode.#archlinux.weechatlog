@@ -1,0 +1,332 @@
+2014-03-09 21:49:56	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 21:49:56	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 21:49:56	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 21:49:57	--	Channel #archlinux: 1693 nicks (1 op, 0 voices, 1692 normals)
+2014-03-09 21:49:57	--	Mode #archlinux [+Ccnt]
+2014-03-09 21:49:57	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 21:50:00	sudokode	the guy clearly doesn't grok sudoku
+2014-03-09 21:50:06	▬▬▶	wych1 (~wych@76.164.199.11) has joined #archlinux
+2014-03-09 21:50:19	gllt	sabboo ter-112n
+2014-03-09 21:50:23	gllt	terminus I suppose yeah
+2014-03-09 21:50:34	Namarrgon	Conker: just mount the ESP to /boot
+2014-03-09 21:50:39	sudokode	narwhal!
+2014-03-09 21:50:47	▬▬▶	fluter (~fluter@fedora/fluter) has joined #archlinux
+2014-03-09 21:50:52	◀▬▬	wych1 (~wych@76.164.199.11) has left #archlinux
+2014-03-09 21:50:56	sabboo	gllt, no, I'm guessing it's the font
+2014-03-09 21:51:02	◀▬▬	techno_x64 (~wolf@unaffiliated/dark-wolf) has quit (Remote host closed the connection)
+2014-03-09 21:51:05	gllt	sabboo do you happen to know a font that would be suitable?
+2014-03-09 21:51:10	gllt	thank you for the help regardless
+2014-03-09 21:51:13	▬▬▶	amcelwee (48b32391@gateway/web/freenode/ip.72.179.35.145) has joined #archlinux
+2014-03-09 21:51:23	 *	Namarrgon posts minimal sudokode-generator to SE
+2014-03-09 21:51:42	sabboo	I've only messed with console fonts on slackware and it gives me a choice and asks me to confirm.
+2014-03-09 21:51:44	▬▬▶	woju (~woju@171.112.162.239) has joined #archlinux
+2014-03-09 21:51:49	Conker	Namarrgon, i suppose thats a whole lot easier than EFISTUB and it means i dont need an added separate /boot part, huh
+2014-03-09 21:52:00	sabboo	Try one, I suppose.
+2014-03-09 21:52:09	gllt	fair enough sabboo and i've tried a ton of fonts but i'll try more
+2014-03-09 21:52:13	dagnachew	hi all
+2014-03-09 21:52:16	gllt	google has helped me very little in this endeavor
+2014-03-09 21:52:25	Namarrgon	Conker: dunno about the efistub crap apart from it being broken but, yeah, simple==good
+2014-03-09 21:52:57	sabboo	gllt, after you have a font set up, try something like mc that uses console high characters (box stuff)
+2014-03-09 21:53:14	Conker	Namarrgon, I agree, I cant see any issue with that setup. Its my first Macbook Pro / EFI / LUKS / LVM install. wish me luck
+2014-03-09 21:53:27	◀▬▬	Lrouge (~Lrouge@bas1-montreal37-2925024743.dsl.bell.ca) has quit (Remote host closed the connection)
+2014-03-09 21:53:28	◀▬▬	axum (~axum@cpe-76-92-227-128.kc.res.rr.com) has quit (Remote host closed the connection)
+2014-03-09 21:53:40	▬▬▶	quisto (~quisto@190.55.80.169) has joined #archlinux
+2014-03-09 21:53:41	◀▬▬	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has quit (Quit: ◀▬▬ ••••••ᗣ••••••ᗧ•ᗣᗣ••••◀▬▬   We Love You)
+2014-03-09 21:53:49	halosghost	lol at that sudoku generator
+2014-03-09 21:53:58	halosghost	has the wrong number of blanks
+2014-03-09 21:54:24	▬▬▶	driti (~driti@ip24-250-20-116.ri.ri.cox.net) has joined #archlinux
+2014-03-09 21:54:35	▬▬▶	Silent_Wolf (~wolf@unaffiliated/dark-wolf) has joined #archlinux
+2014-03-09 21:54:49	◀▬▬	Montague (~Montague@bas2-hull20-1279359209.dsl.bell.ca) has quit (Remote host closed the connection)
+2014-03-09 21:55:01	◀▬▬	zyrox (~zyrox@cm-84.208.166.208.getinternet.no) has quit (Quit: Leaving)
+2014-03-09 21:55:04	◀▬▬	styler_ (~styler@c-69-180-30-115.hsd1.ga.comcast.net) has quit (Remote host closed the connection)
+2014-03-09 21:55:06	◀▬▬	driti (~driti@ip24-250-20-116.ri.ri.cox.net) has quit (Client Quit)
+2014-03-09 21:55:21	◀▬▬	c00w (~colin@2001:67c:1350:106::12) has quit (Ping timeout: 245 seconds)
+2014-03-09 21:55:33	◀▬▬	atweiden (~atweiden@unaffiliated/atweiden) has quit (Quit: Leaving)
+2014-03-09 21:55:56	gllt	sabboo: thats the thing let me show you what i can do right now
+2014-03-09 21:56:06	gllt	also this fbdump lmao i cant get the colors right sorry http://i.imgur.com/mfOsvuc.png
+2014-03-09 21:56:10	▬▬▶	styler (~styler@c-69-180-30-115.hsd1.ga.comcast.net) has joined #archlinux
+2014-03-09 21:56:15	gllt	theres tmux and mc inside dvtm
+2014-03-09 21:56:36	Namarrgon	and there is a lot of q
+2014-03-09 21:56:37	◀▬▬	spinningcompass (~spinningc@173.192.176.161-static.reverse.softlayer.com) has quit (Ping timeout: 240 seconds)
+2014-03-09 21:56:46	▬▬▶	spinningcompass (~spinningc@50.23.131.248-static.reverse.softlayer.com) has joined #archlinux
+2014-03-09 21:56:46	◀▬▬	AlexP (~alex@rockbox/staff/AlexP) has quit (Remote host closed the connection)
+2014-03-09 21:57:27	◀▬▬	IonCannon218 (~quassel@unaffiliated/ioncannon218) has left #archlinux
+2014-03-09 21:57:54	gllt	so very much q
+2014-03-09 21:57:56	gllt	and x
+2014-03-09 21:58:02	gllt	dvtmqx edition
+2014-03-09 21:58:06	--	Silent_Wolf is now known as techno_x64
+2014-03-09 21:58:12	▬▬▶	eternnoir (quassel@2400:8900::f03c:91ff:fe70:b8b2) has joined #archlinux
+2014-03-09 21:58:21	◀▬▬	bizarro_1 (~bizarro_1@80.30.237.111) has quit (Quit: Leaving)
+2014-03-09 21:58:27	◀▬▬	dynamism (~dynamism@107-211-112-133.lightspeed.fyvlar.sbcglobal.net) has quit (Quit: dynamism)
+2014-03-09 21:58:36	▬▬▶	CTtechguy (~CTtechguy@unaffiliated/cttechguy) has joined #archlinux
+2014-03-09 21:59:00	◀▬▬	spinningcompass (~spinningc@50.23.131.248-static.reverse.softlayer.com) has quit (Client Quit)
+2014-03-09 21:59:05	Namarrgon	you need more packages. the goal of archlinux is to get all packages.
+2014-03-09 21:59:30	GI_Jack	https://bugs.archlinux.org/task/39260
+2014-03-09 21:59:35	phrik	Title: FS#39260 : PHP breaks with apache 2.4 (at bugs.archlinux.org)
+2014-03-09 22:00:01	▬▬▶	snippra (~snippra@c-af4370d5.06-80-6b6c6d1.cust.bredbandsbolaget.se) has joined #archlinux
+2014-03-09 22:00:27	--	sdkell2 is now known as ihatepullups
+2014-03-09 22:00:35	◀▬▬	bartos01 (~bill@unaffiliated/bartos01) has quit (Quit: Leaving)
+2014-03-09 22:00:45	--	ihatepullups is now known as sdkell2
+2014-03-09 22:01:09	gllt	http://i.imgur.com/g1Urrs7.png
+2014-03-09 22:01:40	Namarrgon	GI_Jack: you run the repo php?
+2014-03-09 22:02:14	◀▬▬	maletor (~maletor@unaffiliated/maletor) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:02:20	▬▬▶	Montague (~Montague@bas2-hull20-1279359209.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:02:40	▬▬▶	Lehthanis (~robbie@cpe-71-72-207-88.cinci.res.rr.com) has joined #archlinux
+2014-03-09 22:02:48	Lehthanis	bah humbug windows
+2014-03-09 22:02:48	▬▬▶	Vash63 (~Vash63@ip72-201-223-126.ph.ph.cox.net) has joined #archlinux
+2014-03-09 22:02:57	◀▬▬	woju (~woju@171.112.162.239) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:03:18	Lehthanis	so I turned on UEFI mode...and the windows installer hung at Starting Windows.
+2014-03-09 22:03:24	◀▬▬	charliesome (~charlieso@111.69.52.154) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2014-03-09 22:03:26	▬▬▶	frank604 (~frank604_@S0106d4ca6d1c8d78.wk.shawcable.net) has joined #archlinux
+2014-03-09 22:03:38	Lehthanis	tried a few things...no dice...decided to postpone this abomination until tomorrow.
+2014-03-09 22:03:48	▬▬▶	charliesome (~charlieso@111.69.52.154) has joined #archlinux
+2014-03-09 22:03:53	Lehthanis	I might actually have to create that EFI partition
+2014-03-09 22:04:08	◀▬▬	snippra_ (~snippra@c-af4370d5.06-80-6b6c6d1.cust.bredbandsbolaget.se) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:04:18	◀▬▬	devgiant (~devgiant@unaffiliated/devgiant) has quit (Quit: Leaving)
+2014-03-09 22:04:46	--	sdkell2 is now known as kissmyassNSA
+2014-03-09 22:04:50	▬▬▶	safeguard (~safeguard@184.75.212.218) has joined #archlinux
+2014-03-09 22:05:06	◀▬▬	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 22:05:06	Lehthanis	how hard is it to restore an arch install from an rsync?  I just did a manual copy of all my stuff, but I'd like to give rsync a shot if it's easy to restore from
+2014-03-09 22:05:06	▬▬▶	lambdhanjian (~lhj@183.129.120.10) has joined #archlinux
+2014-03-09 22:05:27	Lehthanis	I could just rsync to my external drive both my / and my /home right?
+2014-03-09 22:05:52	Lehthanis	<--- never used it before. should probably learn
+2014-03-09 22:06:13	Lehthanis	anyways...seems dead in here...I'm gonna go to bed.  thanks again for all the help earlier.
+2014-03-09 22:06:14	--	kissmyassNSA is now known as rebellum
+2014-03-09 22:06:15	◀▬▬	excelereight (~excelerei@ip174-71-98-118.om.om.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:06:16	▬▬▶	lamont_ (~lamont_@204.45.119.114) has joined #archlinux
+2014-03-09 22:06:23	anthony25	Lehthanis,
+2014-03-09 22:06:32	anthony25	it's easy to restore with rsync
+2014-03-09 22:06:52	Montague	Lehthanis: follow the ArchWiki closely, a was able to make UEFI work on an HP Pavilion g6 by folowing the wiki...
+2014-03-09 22:06:55	anthony25	but you have to ignore some folders if you don't want to create a loop
+2014-03-09 22:06:56	Lehthanis	anthony25: I shoudl use the -a option when making backup right?
+2014-03-09 22:07:03	Montague	Dualbooting Windows8 and Arch
+2014-03-09 22:07:16	Montague	Disabled secureboot in the firmware though
+2014-03-09 22:07:19	Lehthanis	Montague: I'm trying to dual boot win7 after a working arch install
+2014-03-09 22:07:20	▬▬▶	botsi (~ites@2a02:a03f:30e2:2200:9187:68e8:c320:c92c) has joined #archlinux
+2014-03-09 22:07:31	anthony25	2mn, I give you my backup script
+2014-03-09 22:07:33	▬▬▶	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has joined #archlinux
+2014-03-09 22:07:45	▬▬▶	krz (~foo@unaffiliated/krz) has joined #archlinux
+2014-03-09 22:07:47	Montague	hmm don't know about that, I did it the other way around: installed windows8 first, then insalled arch
+2014-03-09 22:08:07	Lehthanis	yeah...I may just get the experience and do that too.
+2014-03-09 22:08:10	--	rebellum is now known as sdkell2
+2014-03-09 22:08:12	Lehthanis	anthony25: 2mn?
+2014-03-09 22:08:14	▬▬▶	rockneurotiko (~quassel@80.174.17.34.dyn.user.ono.com) has joined #archlinux
+2014-03-09 22:08:14	Montague	but you do need an EPS
+2014-03-09 22:08:15	◀▬▬	charliesome (~charlieso@111.69.52.154) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:08:20	Lehthanis	EPS?
+2014-03-09 22:08:21	Montague	**ESP
+2014-03-09 22:08:28	Montague	EFI System Partion
+2014-03-09 22:08:31	Lehthanis	Extra Sensory Perception
+2014-03-09 22:08:39	Montague	lol
+2014-03-09 22:08:40	◀▬▬	yorick (~yorick@oftn/member/yorick) has quit (Remote host closed the connection)
+2014-03-09 22:08:43	anthony25	2 minutes
+2014-03-09 22:08:44	Lehthanis	do I need that before I install windows?
+2014-03-09 22:08:49	Lehthanis	oh ok
+2014-03-09 22:08:58	Montague	synonymous for the UEFI Partition you were gonna create
+2014-03-09 22:09:01	Lehthanis	maybe that's why wndows installer hung
+2014-03-09 22:09:05	Lehthanis	yeah
+2014-03-09 22:09:07	Montague	don't know
+2014-03-09 22:09:10	▬▬▶	kriskropd (~kris@108-81-178-201.lightspeed.gnvlsc.sbcglobal.net) has joined #archlinux
+2014-03-09 22:09:10	GI_Jack	Namarrgon, no
+2014-03-09 22:09:18	▬▬▶	RoozbehShafiee (~roozbeh@37.254.69.32) has joined #archlinux
+2014-03-09 22:09:20	Namarrgon	no?
+2014-03-09 22:09:25	GI_Jack	I just broke my setup and it took my 1 1/2 hours to fix it
+2014-03-09 22:09:27	Montague	i mean if you plan on using efi yes i would assume
+2014-03-09 22:09:37	kriskropd	is there a file i can check to find how much power is left inside my Asus 1005HA battery?
+2014-03-09 22:09:54	GI_Jack	I have php_zts from AUR
+2014-03-09 22:09:56	Lehthanis	grawity said the windows  installer should create it for me...but it might not have
+2014-03-09 22:10:03	Montague	but since in my case I installed windows8 first, I just let the windows8 installer automagically created all required partitions
+2014-03-09 22:10:11	◀▬▬	_5kg (~zifeitong@60.191.2.238) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:10:41	◀▬▬	GusBrick_ (~GusBricke@c122-107-239-5.mckinn3.vic.optusnet.com.au) has quit (Remote host closed the connection)
+2014-03-09 22:10:45	@grawity	it always does; for the same reason a BIOS Windows installer nukes syslinux
+2014-03-09 22:10:45	▬▬▶	c00w (~colin@colorado-175.dynamic2.rpi.edu) has joined #archlinux
+2014-03-09 22:10:54	Scimmia	GI_Jack, you know, posting a 5th bug in the bug tracker doesn't mean they're going to do it quicker
+2014-03-09 22:10:56	◀▬▬	rock_neurotiko (~quassel@80.174.17.34.dyn.user.ono.com) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:10:56	▬▬▶	itsmiggeeee (~its@S0106001bfc2501d0.pk.shawcable.net) has joined #archlinux
+2014-03-09 22:11:03	--	sdkell2 is now known as argv
+2014-03-09 22:11:07	--	argv is now known as argc
+2014-03-09 22:11:11	◀▬▬	antimatterone (~antimatte@cpc18-aztw24-2-0-cust156.18-1.cable.virginm.net) has quit (Quit: Going offline, see ya! (www.adiirc.com))
+2014-03-09 22:11:18	anthony25	Lehthanis, http://pastebin.com/1HdVRAca
+2014-03-09 22:11:20	phrik	Title: [Bash] Backup script - Pastebin.com (at pastebin.com)
+2014-03-09 22:11:21	Montague	You have to check first that Windows7 supports UEFI
+2014-03-09 22:11:35	Lehthanis	grawity: yeah, I knew it was goign to do that...but then this whole GPT issue happened...could the lack of an EFI partition be causing the installer to freeze after loading files and on the startign windows screen?
+2014-03-09 22:11:51	◀▬▬	Rosha (~roozbeh@37.254.75.155) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:11:54	◀▬▬	cored (~homer@unaffiliated/cored) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:12:03	anthony25	change what you need in EXCLUDE, and change the target in TARGET_ROOT
+2014-03-09 22:12:18	anthony25	oh wait
+2014-03-09 22:12:35	anthony25	I have cleaned that a little before pasting it, and I have forgotten a "fi"
+2014-03-09 22:12:37	◀▬▬	Spades_ (~refactore@192-0-214-87.cpe.teksavvy.com) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:12:46	◀▬▬	foozle (~bruce@2001:288:8201:3:ae22:bff:fe89:5122) has left #archlinux
+2014-03-09 22:12:56	▬▬▶	cahman (~cahman@host-76-11-181-204.newwavecomm.net) has joined #archlinux
+2014-03-09 22:13:07	Lehthanis	oh...ok
+2014-03-09 22:13:08	▬▬▶	_5kg (~zifeitong@60.191.2.238) has joined #archlinux
+2014-03-09 22:13:15	Montague	Lenthanis: I did my install a year ago so I forget a few details, but I just remembered that I create all 4 partitions that windows8 requires **before installing**
+2014-03-09 22:13:24	anthony25	http://pastebin.com/MtZyDNdn
+2014-03-09 22:13:27	phrik	Title: [Bash] Backup script - Pastebin.com (at pastebin.com)
+2014-03-09 22:13:29	Montague	I think I used a live usb with GParted on it
+2014-03-09 22:13:45	◀▬▬	puish (~puish@unaffiliated/jonbryan) has quit
+2014-03-09 22:14:01	▬▬▶	moshR (~steve@c-66-235-3-98.sea.wa.customer.broadstripe.net) has joined #archlinux
+2014-03-09 22:14:16	Montague	But the windows partitionning tool included on the windows insatller should do the same job... but again, easier to install windows first I think...
+2014-03-09 22:14:31	◀▬▬	bretzel (~bretzel@bas5-montreal31-1177920372.dsl.bell.ca) has quit (Quit: Konversation terminated!)
+2014-03-09 22:14:51	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:14:51	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:14:51	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:14:52	--	Channel #archlinux: 1687 nicks (1 op, 0 voices, 1686 normals)
+2014-03-09 22:14:52	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:14:52	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:14:52	Lehthanis	yeah, I'll play with it more tomorrow...I need to go to bed.
+2014-03-09 22:15:03	▬▬▶	Morph4me (~morph4me@d67-193-195-125.home3.cgocable.net) has joined #archlinux
+2014-03-09 22:15:04	gllt	good luck and good night Lehthanis I hope you figure it out
+2014-03-09 22:15:05	anthony25	(I cleaned it because it opens a vim to write a changelog for the backup, and I don't think you need it)
+2014-03-09 22:15:09	Lehthanis	anthony25: I just saved that backup script...I'll play with it too tomorrow ;)
+2014-03-09 22:15:10	anthony25	good night
+2014-03-09 22:15:25	◀▬▬	Fooguo (~Fooguo@174-24-203-130.tukw.qwest.net) has quit (Quit: Picture me rollin)
+2014-03-09 22:15:25	Lehthanis	gllt: thanks!!!
+2014-03-09 22:16:08	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:16:08	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:16:08	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:16:08	--	Channel #archlinux: 1687 nicks (1 op, 0 voices, 1686 normals)
+2014-03-09 22:16:08	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:16:08	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:16:13	anthony25	you're welcome
+2014-03-09 22:16:46	gllt	battery dying, i suppose ill bbl
+2014-03-09 22:16:53	Lehthanis	gnight all...thanks again!
+2014-03-09 22:17:02	◀▬▬	Lehthanis (~robbie@cpe-71-72-207-88.cinci.res.rr.com) has quit (Quit: leaving)
+2014-03-09 22:17:34	◀▬▬	kaictl (~wgiokas@unaffiliated/kaisforza) has quit (Quit: kai.znc -- http://kaictl.net/)
+2014-03-09 22:17:44	▬▬▶	destsk (~swaraj@sd660.trinhall.cam.ac.uk) has joined #archlinux
+2014-03-09 22:17:45	▬▬▶	charliesome (~charlieso@111.69.52.154) has joined #archlinux
+2014-03-09 22:18:18	◀▬▬	fluter (~fluter@fedora/fluter) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:18:39	--	argc is now known as whostyler
+2014-03-09 22:18:53	◀▬▬	MachineX (~MachineX@stormyplanet.org) has left #archlinux
+2014-03-09 22:19:00	◀▬▬	mycookie (~ashish@75.158.143.243) has quit (Quit: Konversation terminated!)
+2014-03-09 22:19:07	◀▬▬	BadCoderFinger (~BadCoderF@71-211-177-43.hlrn.qwest.net) has quit (Quit: leaving)
+2014-03-09 22:19:20	◀▬▬	speechless (~speechles@host86-174-31-33.range86-174.btcentralplus.com) has quit (Read error: Connection reset by peer)
+2014-03-09 22:19:24	▬▬▶	kaictl (~wgiokas@unaffiliated/kaisforza) has joined #archlinux
+2014-03-09 22:19:54	▬▬▶	excelereight (~excelerei@ip174-71-98-118.om.om.cox.net) has joined #archlinux
+2014-03-09 22:20:52	◀▬▬	Funkin-Stoopid (~Funkin_St@127.244.114.78.rev.sfr.net) has quit (Quit: bye)
+2014-03-09 22:21:10	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:21:10	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:21:10	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:21:11	--	Channel #archlinux: 1683 nicks (1 op, 0 voices, 1682 normals)
+2014-03-09 22:21:11	◀▬▬	gllt (~gllt@2601:5:cc00:4eb:9200:4eff:fe3a:f73d) has quit (Ping timeout: 245 seconds)
+2014-03-09 22:21:11	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:21:11	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:21:39	◀▬▬	hacker_sam (~hacker_sa@24.236.76.193) has quit (Remote host closed the connection)
+2014-03-09 22:21:51	GI_Jack	Scimmia, I didn't see the other 4
+2014-03-09 22:21:51	▬▬▶	hacker_sam (~hacker_sa@24.236.76.193) has joined #archlinux
+2014-03-09 22:22:48	◀▬▬	neinmm (~wulf@c-69-248-41-177.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2014-03-09 22:23:01	◀▬▬	ariscop (~Phase4@101.119.26.26) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:23:29	--	whostyler is now known as whos_tyler
+2014-03-09 22:24:06	▬▬▶	GusBricker (~GusBricke@c122-107-239-5.mckinn3.vic.optusnet.com.au) has joined #archlinux
+2014-03-09 22:24:24	◀▬▬	wizonesolutions (~quassel@drupal.org/user/739994/view) has left #archlinux ("http://quassel-irc.org - Chat comfortably. Anywhere.")
+2014-03-09 22:24:57	◀▬▬	hidekin (~hidekin@85.218.111.210) has quit (Remote host closed the connection)
+2014-03-09 22:25:53	◀▬▬	charliesome (~charlieso@111.69.52.154) has quit (Read error: Connection reset by peer)
+2014-03-09 22:26:13	▬▬▶	charliesome (~charlieso@111.69.52.154) has joined #archlinux
+2014-03-09 22:26:34	◀▬▬	daa1494_ (~david@201.141.81.78) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:27:08	◀▬▬	RichisPoor (~rich@99-50-209-215.lightspeed.wlfrct.sbcglobal.net) has quit (Remote host closed the connection)
+2014-03-09 22:27:17	▬▬▶	Fooguo (~Fooguo@174-24-203-130.tukw.qwest.net) has joined #archlinux
+2014-03-09 22:27:20	◀▬▬	egroeg (~egroeg@unaffiliated/egroeg) has quit (Quit: quit)
+2014-03-09 22:27:28	◀▬▬	RoozbehShafiee (~roozbeh@37.254.69.32) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:27:36	◀▬▬	quisto (~quisto@190.55.80.169) has quit (Quit: Saliendo)
+2014-03-09 22:27:45	◀▬▬	Achillion (~ach@unaffiliated/achillion) has quit (Quit: :wq)
+2014-03-09 22:27:47	▬▬▶	kreiGT (~kreig@201.216.132.167) has joined #archlinux
+2014-03-09 22:30:03	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:30:03	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:30:03	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:30:03	--	Channel #archlinux: 1676 nicks (1 op, 0 voices, 1675 normals)
+2014-03-09 22:30:04	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:30:04	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:30:05	buhman	10.0.0.2 != 10.0.0.2/32 :S
+2014-03-09 22:30:08	◀▬▬	WonderWoofy (~curtisshi@2601:9:4b00:74a:221:70ff:fe53:d9c) has quit (Remote host closed the connection)
+2014-03-09 22:30:19	◀▬▬	sud0 (~Death@unaffiliated/sud0) has quit (Disconnected by services)
+2014-03-09 22:30:33	▬▬▶	sud0 (~Death@unaffiliated/sud0) has joined #archlinux
+2014-03-09 22:30:59	▬▬▶	WonderWoofy (~curtisshi@2601:9:4b00:74a:221:70ff:fe53:d9c) has joined #archlinux
+2014-03-09 22:31:24	◀▬▬	lamont_ (~lamont_@204.45.119.114) has quit (Remote host closed the connection)
+2014-03-09 22:31:33	◀▬▬	gllt (~gllt@2601:5:cc00:4eb:9200:4eff:fe3a:f73d) has quit (Client Quit)
+2014-03-09 22:31:34	▬▬▶	RoozbehShafiee (~roozbeh@37.254.97.41) has joined #archlinux
+2014-03-09 22:31:39	◀▬▬	AngryNapkin (~david@97-90-144-70.static.mtpk.ca.charter.com) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:31:41	◀▬▬	psyl0n (~psyl0n@unaffiliated/psyl0n) has quit (Remote host closed the connection)
+2014-03-09 22:31:46	▬▬▶	stianhj (~stian@147.87.202.84.customer.cdi.no) has joined #archlinux
+2014-03-09 22:32:08	◀▬▬	destsk (~swaraj@sd660.trinhall.cam.ac.uk) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:32:13	▬▬▶	gllt (~gllt@2601:5:cc00:4eb:9200:4eff:fe3a:f73d) has joined #archlinux
+2014-03-09 22:32:35	▬▬▶	dansamo (~root@121.163.89.219) has joined #archlinux
+2014-03-09 22:32:40	◀▬▬	WonderWoofy (~curtisshi@2601:9:4b00:74a:221:70ff:fe53:d9c) has quit (Read error: Connection reset by peer)
+2014-03-09 22:32:43	◀▬▬	charliesome (~charlieso@111.69.52.154) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2014-03-09 22:32:55	▬▬▶	WonderWoofy (~curtisshi@2601:9:4b00:74a::19e) has joined #archlinux
+2014-03-09 22:33:17	◀▬▬	_ikke_ (~kevin@ikke.info) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:33:24	◀▬▬	safeguard (~safeguard@184.75.212.218) has quit (Quit: Leaving)
+2014-03-09 22:34:05	▬▬▶	spinningcompass (~spinningc@173.192.170.90) has joined #archlinux
+2014-03-09 22:34:29	▬▬▶	r00tine_ (~user@erft-4d05552a.pool.mediaWays.net) has joined #archlinux
+2014-03-09 22:34:30	▬▬▶	_ikke_ (~kevin@ikke.info) has joined #archlinux
+2014-03-09 22:34:40	◀▬▬	ldionmarcil (~louis@unaffiliated/maden) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:35:22	▬▬▶	funky1_ (~funky@ip51cf100e.direct-adsl.nl) has joined #archlinux
+2014-03-09 22:35:26	▬▬▶	daa1494 (~david@201.141.81.78) has joined #archlinux
+2014-03-09 22:36:04	▬▬▶	fluter (~fluter@fedora/fluter) has joined #archlinux
+2014-03-09 22:36:13	◀▬▬	pack^ (~excessive@63.142.109.124) has quit (Quit: Lost terminal)
+2014-03-09 22:36:15	▬▬▶	diegoviola (~diego@unaffiliated/diegoviola) has joined #archlinux
+2014-03-09 22:36:23	◀▬▬	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:36:35	--	Zucchini|Away is now known as ZucchiniDoge
+2014-03-09 22:37:01	▬▬▶	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has joined #archlinux
+2014-03-09 22:37:17	◀▬▬	r00tine (~user@erft-4d07edfb.pool.mediaWays.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:37:37	◀▬▬	frank604 (~frank604_@S0106d4ca6d1c8d78.wk.shawcable.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:38:00	◀▬▬	funky1 (~funky@ip51cf100e.direct-adsl.nl) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:38:14	▬▬▶	archer72_ (~archer72@108.237.10.217) has joined #archlinux
+2014-03-09 22:38:33	▬▬▶	moxotter (~moxotter@unaffiliated/moxotter) has joined #archlinux
+2014-03-09 22:38:36	◀▬▬	hacker_sam (~hacker_sa@24.236.76.193) has quit (Read error: Connection reset by peer)
+2014-03-09 22:39:00	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:39:00	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:39:00	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:39:00	--	Channel #archlinux: 1675 nicks (1 op, 0 voices, 1674 normals)
+2014-03-09 22:39:01	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:39:01	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:39:05	◀▬▬	dracman (~draco@212.255.249.127) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:39:11	▬▬▶	hacker_sam (~hacker_sa@24.236.76.193) has joined #archlinux
+2014-03-09 22:39:33	◀▬▬	redBit_ (~richard@186-107-38-46.baf.movistar.cl) has quit (Quit: Lost terminal)
+2014-03-09 22:40:37	◀▬▬	johnislarry (~john@macreg10712.dyn.cs.washington.edu) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:40:57	▬▬▶	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has joined #archlinux
+2014-03-09 22:41:02	◀▬▬	WonderWoofy (~curtisshi@2601:9:4b00:74a::19e) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:41:10	▬▬▶	bacteria (~jon@99-165-232-137.lightspeed.hstntx.sbcglobal.net) has joined #archlinux
+2014-03-09 22:41:30	◀▬▬	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has quit (Remote host closed the connection)
+2014-03-09 22:41:35	◀▬▬	axv (~axv@207.62.170.211) has quit
+2014-03-09 22:41:59	▬▬▶	SonicX (~quassel@ip98-180-46-147.ga.at.cox.net) has joined #archlinux
+2014-03-09 22:42:17	◀▬▬	SyAchmed (~SyAchmed@unaffiliated/syachmed) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:42:52	▬▬▶	kingkongmok (~kingkongm@121.33.199.220) has joined #archlinux
+2014-03-09 22:43:08	◀▬▬	firecat53 (~firecat53@192.198.203.18) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:43:22	▬▬▶	hh4a (~hh4a@BSN-143-158-19.dial-up.dsl.siol.net) has joined #archlinux
+2014-03-09 22:44:19	gllt	phew, looked up weechat join/part/quit filtering, this channel is a lot better looking now
+2014-03-09 22:44:23	▬▬▶	frank604 (~frank604_@S0106d4ca6d1c8d78.wk.shawcable.net) has joined #archlinux
+2014-03-09 22:45:02	◀▬▬	bigbadben (~bigbadben@24-176-0-21.dhcp.klmz.mi.charter.com) has quit (Remote host closed the connection)
+2014-03-09 22:45:10	◀▬▬	dreams (~dreams@client-86-23-126-145.brhm.adsl.virginm.net) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 22:45:20	▬▬▶	dracman (~draco@212.255.231.8) has joined #archlinux
+2014-03-09 22:45:24	▬▬▶	dreams (~dreams@client-86-23-126-145.brhm.adsl.virginm.net) has joined #archlinux
+2014-03-09 22:45:38	▬▬▶	SyAchmed (~SyAchmed@unaffiliated/syachmed) has joined #archlinux
+2014-03-09 22:46:02	▬▬▶	oldherl (~oldherl@58.196.142.42) has joined #archlinux
+2014-03-09 22:46:38	JackLFrost	Yep, it's hard to talkt here if you don't have those ignored
+2014-03-09 22:46:41	JackLFrost	talk*
+2014-03-09 22:46:44	▬▬▶	ldionmarcil (~louis@unaffiliated/maden) has joined #archlinux
+2014-03-09 22:47:09	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #archlinux
+2014-03-09 22:47:09	--	Topic for #archlinux is "Welcome to Arch Linux World Domination, Inc. <☃ > Remember, Arch doesn't like being neglected <+> Linux 3.13 with modular keyboard support in [core], read the news http://goo.gl/OeKKHx <+> Upgrade GnuTLS to 3.2.12 or later due to critical crypto bug http://goo.gl/EcMdWc <+> Apache 2.4 is now in [extra] http://bit.ly/1fd0JSw"
+2014-03-09 22:47:09	--	Topic set by demize (kyrias@archlinux/op/demize) on Sat, 08 Mar 2014 15:32:44
+2014-03-09 22:47:10	--	Channel #archlinux: 1677 nicks (1 op, 0 voices, 1676 normals)
+2014-03-09 22:47:10	--	Mode #archlinux [+Ccnt]
+2014-03-09 22:47:10	--	Channel created on Sun, 15 Feb 2004 00:08:31
+2014-03-09 22:47:27	▬▬▶	Mechanimal (~kyle@184.75.214.163) has joined #archlinux
+2014-03-09 22:47:33	◀▬▬	bacteria (~jon@99-165-232-137.lightspeed.hstntx.sbcglobal.net) has quit (Quit: Lost terminal)
+2014-03-09 22:47:49	◀▬▬	gandaliter (~toby@zone2.jesus.cam.ac.uk) has quit (Remote host closed the connection)
+2014-03-09 22:47:54	◀▬▬	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has quit (Read error: error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number)
+2014-03-09 22:48:16	◀▬▬	Teddy5090 (~Thunderbi@172.56.7.31) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:48:19	◀▬▬	dreams (~dreams@client-86-23-126-145.brhm.adsl.virginm.net) has quit (Client Quit)
+2014-03-09 22:48:22	▬▬▶	ariscop (~Phase4@2001:44b8:4196:e800:76e5:43ff:fe41:bfc9) has joined #archlinux
+2014-03-09 22:48:54	▬▬▶	iabovu (~chris@115-64-143-170.static.tpgi.com.au) has joined #archlinux
+2014-03-09 22:49:27	◀▬▬	eristisk (~eristisk@62.212.85.107) has quit (Remote host closed the connection)
+2014-03-09 22:49:45	◀▬▬	Arkaniad (~Arkaniad@host-37-126-107-208.midco.net) has quit (Read error: Operation timed out)
+2014-03-09 22:50:50	▬▬▶	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has joined #archlinux
+2014-03-09 22:50:55	◀▬▬	stianhj (~stian@147.87.202.84.customer.cdi.no) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 22:51:55	▬▬▶	r3zguin0 (~r3zguin0@unaffiliated/r3zguin0) has joined #archlinux
+2014-03-09 22:53:20	▬▬▶	WonderWoofy (~curtisshi@2601:9:4b00:74a:221:70ff:fe53:d9c) has joined #archlinux
+2014-03-09 22:53:49	◀▬▬	S0-2 (~sgra@unaffiliated/sgra) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:54:28	▬▬▶	dividebyzer0 (~root@nc-76-3-214-183.dhcp.embarqhsd.net) has joined #archlinux
+2014-03-09 22:54:34	◀▬▬	amcelwee (48b32391@gateway/web/freenode/ip.72.179.35.145) has quit (Quit: Page closed)
+2014-03-09 22:54:37	▬▬▶	anonymous (~anonymous@pool-72-93-45-96.bstnma.east.verizon.net) has joined #archlinux
+2014-03-09 22:54:38	◀▬▬	jasonwryan (~jasonwrya@fsf/member/jasonwryan) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:54:50	--	anonymous is now known as Guest1386

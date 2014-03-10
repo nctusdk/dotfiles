@@ -1,0 +1,126 @@
+2014-03-09 21:49:57	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #haskell
+2014-03-09 21:49:57	--	Topic for #haskell is "http://www.haskell.org/ | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | Administrative issues: #haskell-ops | Hackage down? http://hdiff.luite.com | XCode 5 issues? http://is.gd/H4sEub | Need an op? Try: @where ops"
+2014-03-09 21:49:57	--	Topic set by johnw (~johnw@c-69-245-200-160.hsd1.il.comcast.net) on Mon, 17 Feb 2014 21:32:10
+2014-03-09 21:49:57	--	Channel #haskell: 1180 nicks (1 op, 0 voices, 1179 normals)
+2014-03-09 21:49:57	--	URL for #haskell: http://www.haskell.org/
+2014-03-09 21:50:05	◀▬▬	killerswan (~killerswa@c-67-188-178-198.hsd1.ca.comcast.net) has quit (Quit: killerswan)
+2014-03-09 21:50:07	--	Mode #haskell [+CLcnptz]
+2014-03-09 21:50:07	--	Channel created on Sun, 26 Nov 2006 01:42:48
+2014-03-09 21:50:09	▬▬▶	crembo (~crembo@S0106001ff33f033b.vc.shawcable.net) has joined #haskell
+2014-03-09 21:50:21	▬▬▶	IanKelling (~ian@c-67-160-118-141.hsd1.wa.comcast.net) has joined #haskell
+2014-03-09 21:50:21	geekosaur	just means you didn't have documentation turned on when you installed the package
+2014-03-09 21:50:27	geekosaur	(it defaults off)
+2014-03-09 21:50:35	▬▬▶	sski (~sski@p1149-ipngn2901hodogaya.kanagawa.ocn.ne.jp) has joined #haskell
+2014-03-09 21:50:38	◀▬▬	innertracks (~Thunderbi@c-50-159-9-43.hsd1.wa.comcast.net) has quit (Quit: innertracks)
+2014-03-09 21:50:49	 *	hackagebot validation 0.3.2 - A data-type like Either but with an accumulating Applicative  http://hackage.haskell.org/package/validation-0.3.2 (TonyMorris)
+2014-03-09 21:50:49	◀▬▬	u_ (~phillip@adsl-75-57-171-128.dsl.emhril.sbcglobal.net) has quit (Remote host closed the connection)
+2014-03-09 21:50:51	▬▬▶	doomlord__ (~servitor@host86-184-9-184.range86-184.btcentralplus.com) has joined #haskell
+2014-03-09 21:51:07	▬▬▶	tautologico (uid22285@gateway/web/irccloud.com/x-dvpnjtqaargqgdhe) has joined #haskell
+2014-03-09 21:51:34	David	Ah. thanks geekosaur
+2014-03-09 21:51:48	▬▬▶	exobit (~exobit@pool-108-46-34-123.nycmny.fios.verizon.net) has joined #haskell
+2014-03-09 21:51:55	◀▬▬	exobit (~exobit@pool-108-46-34-123.nycmny.fios.verizon.net) has quit (Max SendQ exceeded)
+2014-03-09 21:52:17	◀▬▬	doomlord_ (~servitor@host86-184-9-184.range86-184.btcentralplus.com) has quit (Ping timeout: 240 seconds)
+2014-03-09 21:52:41	▬▬▶	lw (~lw@user194-190.chestnutresnet.utoronto.ca) has joined #haskell
+2014-03-09 21:52:55	◀▬▬	intrados (~user@cpe-75-187-56-230.columbus.res.rr.com) has quit (Remote host closed the connection)
+2014-03-09 21:53:37	◀▬▬	gamegoblin (~grant@ip72-204-35-188.fv.ks.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 21:54:24	◀▬▬	silver_ (~silver@86.57.193.120) has quit (Read error: Connection reset by peer)
+2014-03-09 21:54:28	▬▬▶	innertracks (~Thunderbi@c-50-159-9-43.hsd1.wa.comcast.net) has joined #haskell
+2014-03-09 21:54:30	◀▬▬	OlegYch (~OlegYch@213.184.238.131) has quit (Ping timeout: 265 seconds)
+2014-03-09 21:54:54	◀▬▬	innertracks (~Thunderbi@c-50-159-9-43.hsd1.wa.comcast.net) has quit (Client Quit)
+2014-03-09 21:56:39	▬▬▶	exobit (~exobit@pool-108-46-34-123.nycmny.fios.verizon.net) has joined #haskell
+2014-03-09 21:58:37	◀▬▬	mekeor (~user@dslb-088-067-142-214.pools.arcor-ip.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 21:59:07	◀▬▬	xianxu (~xx@50-197-183-110-static.hfc.comcastbusiness.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 21:59:13	◀▬▬	watermind (~jadrian@bl19-230-88.dsl.telepac.pt) has quit (Ping timeout: 264 seconds)
+2014-03-09 21:59:41	▬▬▶	gamegoblin (~grant@ip72-204-35-188.fv.ks.cox.net) has joined #haskell
+2014-03-09 22:01:03	◀▬▬	crembo (~crembo@S0106001ff33f033b.vc.shawcable.net) has quit (Remote host closed the connection)
+2014-03-09 22:01:46	◀▬▬	uiop (~uiop@207-181-221-81.c3-0.hnc-ubr1.chi-hnc.il.cable.rcn.com) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:02:14	▬▬▶	uiop (~uiop@207-181-221-81.c3-0.hnc-ubr1.chi-hnc.il.cable.rcn.com) has joined #haskell
+2014-03-09 22:02:30	▬▬▶	dmj` (~user@205-178-72-74.c3-0.snb-ubr1.chi-snb.il.cable.rcn.com) has joined #haskell
+2014-03-09 22:02:38	▬▬▶	arboris (~cpehle@port-92-202-26-160.dynamic.qsc.de) has joined #haskell
+2014-03-09 22:02:43	◀▬▬	lukexi (~lukexi@c-76-102-28-141.hsd1.ca.comcast.net) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:03:04	▬▬▶	lukexi (~lukexi@83.sub-70-197-5.myvzw.com) has joined #haskell
+2014-03-09 22:04:45	◀▬▬	bjr217 (~bjr217@cpe-108-182-9-231.nyc.res.rr.com) has quit (Quit: bjr217)
+2014-03-09 22:05:06	◀▬▬	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has quit (Quit: WeeChat 0.4.3)
+2014-03-09 22:05:08	◀▬▬	dukedave (~dukedave@ip24-251-120-139.ph.ph.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:05:13	▬▬▶	talzeus (~studybot_@101.110.31.120) has joined #haskell
+2014-03-09 22:05:51	▬▬▶	timmot_ (~timmot@CPE-121-218-150-194.lnse3.cht.bigpond.net.au) has joined #haskell
+2014-03-09 22:06:46	◀▬▬	joelb (~textual@office.khanacademy.org) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:07:33	▬▬▶	rekahsoft (~rekahsoft@135-23-121-235.cpe.pppoe.ca) has joined #haskell
+2014-03-09 22:07:37	◀▬▬	latro`a (~latro`a@c-68-33-136-208.hsd1.md.comcast.net) has quit (Ping timeout: 264 seconds)
+2014-03-09 22:07:37	▬▬▶	akahn (uid2243@gateway/web/irccloud.com/x-gijuabmewhmlvqib) has joined #haskell
+2014-03-09 22:08:02	◀▬▬	naraque______ (~naraque@p23177-ipngn6501marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:08:04	▬▬▶	catalyst (~catalyst@allegro/user/angelchild) has joined #haskell
+2014-03-09 22:08:22	▬▬▶	jana (58d9b43a@gateway/web/freenode/ip.88.217.180.58) has joined #haskell
+2014-03-09 22:08:29	◀▬▬	timmot (~timmot@CPE-121-218-150-194.lnse3.cht.bigpond.net.au) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:08:38	◀▬▬	exobit (~exobit@pool-108-46-34-123.nycmny.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:08:40	◀▬▬	yorick (~yorick@oftn/member/yorick) has quit (Remote host closed the connection)
+2014-03-09 22:10:11	◀▬▬	_5kg (~zifeitong@60.191.2.238) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:10:27	◀▬▬	timmot_ (~timmot@CPE-121-218-150-194.lnse3.cht.bigpond.net.au) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:10:48	▬▬▶	timmot (~timmot@101.175.80.181) has joined #haskell
+2014-03-09 22:10:50	◀▬▬	lukexi (~lukexi@83.sub-70-197-5.myvzw.com) has quit (Quit: lukexi)
+2014-03-09 22:11:07	◀▬▬	S11001001 (~sirian@fsf/member/S11001001) has quit (Quit: ERC Version 5.3 (IRC client for Emacs))
+2014-03-09 22:11:53	▬▬▶	naraque______ (~naraque@p23177-ipngn6501marunouchi.tokyo.ocn.ne.jp) has joined #haskell
+2014-03-09 22:12:16	▬▬▶	[1]grant (~grant@ip72-204-15-36.fv.ks.cox.net) has joined #haskell
+2014-03-09 22:12:38	◀▬▬	[[zz]] (~zz]]@node-1e5h.pool-101-108.dynamic.totbb.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:13:12	▬▬▶	_5kg (~zifeitong@60.191.2.238) has joined #haskell
+2014-03-09 22:13:58	◀▬▬	michaelneale (~textual@123.208.232.132) has quit
+2014-03-09 22:14:52	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #haskell
+2014-03-09 22:14:52	--	Topic for #haskell is "http://www.haskell.org/ | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | Administrative issues: #haskell-ops | Hackage down? http://hdiff.luite.com | XCode 5 issues? http://is.gd/H4sEub | Need an op? Try: @where ops"
+2014-03-09 22:14:52	--	Topic set by johnw (~johnw@c-69-245-200-160.hsd1.il.comcast.net) on Mon, 17 Feb 2014 21:32:10
+2014-03-09 22:14:52	--	Channel #haskell: 1173 nicks (1 op, 0 voices, 1172 normals)
+2014-03-09 22:14:52	--	URL for #haskell: http://www.haskell.org/
+2014-03-09 22:15:02	--	Mode #haskell [+CLcnptz]
+2014-03-09 22:15:02	--	Channel created on Sun, 26 Nov 2006 01:42:48
+2014-03-09 22:15:17	◀▬▬	gamegoblin (~grant@ip72-204-35-188.fv.ks.cox.net) has quit (Ping timeout: 265 seconds)
+2014-03-09 22:15:26	▬▬▶	[2]grant (~grant@ip72-204-35-188.fv.ks.cox.net) has joined #haskell
+2014-03-09 22:16:08	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #haskell
+2014-03-09 22:16:08	--	Topic for #haskell is "http://www.haskell.org/ | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | Administrative issues: #haskell-ops | Hackage down? http://hdiff.luite.com | XCode 5 issues? http://is.gd/H4sEub | Need an op? Try: @where ops"
+2014-03-09 22:16:08	--	Topic set by johnw (~johnw@c-69-245-200-160.hsd1.il.comcast.net) on Mon, 17 Feb 2014 21:32:10
+2014-03-09 22:16:08	--	Channel #haskell: 1173 nicks (1 op, 0 voices, 1172 normals)
+2014-03-09 22:16:08	--	URL for #haskell: http://www.haskell.org/
+2014-03-09 22:16:18	--	Mode #haskell [+CLcnptz]
+2014-03-09 22:16:18	--	Channel created on Sun, 26 Nov 2006 01:42:48
+2014-03-09 22:16:23	◀▬▬	donri (uid20857@gateway/web/irccloud.com/x-qghucxaprmwrvlit) has quit (Quit: Connection closed for inactivity)
+2014-03-09 22:17:43	◀▬▬	jcarpenter2 (~jcarpente@71-90-100-65.dhcp.ftbg.wi.charter.com) has quit (Read error: Operation timed out)
+2014-03-09 22:17:44	▬▬▶	destsk (~swaraj@sd660.trinhall.cam.ac.uk) has joined #haskell
+2014-03-09 22:17:51	◀▬▬	aleksejs_ (~aleksejs@78.84.230.217) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:18:00	▬▬▶	chad__ (~chad@adsl-70-232-37-214.dsl.ltrkar.sbcglobal.net) has joined #haskell
+2014-03-09 22:18:13	▬▬▶	ArcTanSusan (~susantan@c-50-184-42-188.hsd1.ca.comcast.net) has joined #haskell
+2014-03-09 22:18:16	◀▬▬	[1]grant (~grant@ip72-204-15-36.fv.ks.cox.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:18:32	▬▬▶	[[zz]] (~zz]]@node-1e5h.pool-101-108.dynamic.totbb.net) has joined #haskell
+2014-03-09 22:18:49	◀▬▬	juiko (~juiko@pc-7-90-83-200.cm.vtr.net) has quit (Ping timeout: 244 seconds)
+2014-03-09 22:20:08	◀▬▬	boogie (~boogie@ip68-101-218-78.sd.sd.cox.net) has quit (Remote host closed the connection)
+2014-03-09 22:20:52	 *	hackagebot groundhog 0.4.2 - Type-safe datatype-database mapping library.  http://hackage.haskell.org/package/groundhog-0.4.2 (BorisLykah)
+2014-03-09 22:21:11	▬▬▶	dagnachew (~dagnachew@bas1-montreal30-2925414263.dsl.bell.ca) has joined #haskell
+2014-03-09 22:21:11	--	Topic for #haskell is "http://www.haskell.org/ | Paste code/errors: http://lpaste.net/new/haskell | Logs: http://tunes.org/~nef/logs/haskell/?C=M;O=D http://ircbrowse.net/day/haskell/today?mode=recent | Administrative issues: #haskell-ops | Hackage down? http://hdiff.luite.com | XCode 5 issues? http://is.gd/H4sEub | Need an op? Try: @where ops"
+2014-03-09 22:21:11	--	Topic set by johnw (~johnw@c-69-245-200-160.hsd1.il.comcast.net) on Mon, 17 Feb 2014 21:32:10
+2014-03-09 22:21:11	--	Channel #haskell: 1171 nicks (1 op, 0 voices, 1170 normals)
+2014-03-09 22:21:11	--	URL for #haskell: http://www.haskell.org/
+2014-03-09 22:21:21	--	Mode #haskell [+CLcnptz]
+2014-03-09 22:21:21	--	Channel created on Sun, 26 Nov 2006 01:42:48
+2014-03-09 22:21:25	▬▬▶	ddellacosta (~ddellacos@softbank126019108129.bbtec.net) has joined #haskell
+2014-03-09 22:21:38	◀▬▬	jbauman (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2014-03-09 22:22:59	▬▬▶	jamieklassen (~jamieklas@bas2-london47-3096697363.dsl.bell.ca) has joined #haskell
+2014-03-09 22:23:33	◀▬▬	studmuf (~studmuf@2601:9:6700:bf:2dce:2362:1a2:b15c) has quit (Remote host closed the connection)
+2014-03-09 22:23:47	▬▬▶	Hermit (~hermit@unaffiliated/grpala) has joined #haskell
+2014-03-09 22:24:12	◀▬▬	oleo (~oleo@xdsl-78-35-170-251.netcologne.de) has quit (Read error: Operation timed out)
+2014-03-09 22:24:26	◀▬▬	catalyst (~catalyst@allegro/user/angelchild) has quit
+2014-03-09 22:24:51	▬▬▶	tertl3 (~tertl3@24-158-53-204.dhcp.hckr.nc.charter.com) has joined #haskell
+2014-03-09 22:25:53	 *	hackagebot groundhog-th 0.4.2 - Type-safe datatype-database mapping library.  http://hackage.haskell.org/package/groundhog-th-0.4.2 (BorisLykah)
+2014-03-09 22:26:41	◀▬▬	snits (~snits@inet-hqmc03-o.oracle.com) has quit (Read error: Connection reset by peer)
+2014-03-09 22:26:55	▬▬▶	hakujin (~hakujin@c-68-52-135-71.hsd1.tn.comcast.net) has joined #haskell
+2014-03-09 22:27:01	◀▬▬	trism (~jconti@unaffiliated/trism) has quit (Quit: leaving)
+2014-03-09 22:27:14	Hermit	it seems to me assuming success prematurely is like asking for failure.... been compiling latest git ghc + latest mingw toolchain for like 20 mins, and when I started to grin from ear to ear about it, BAM, error
+2014-03-09 22:27:15	◀▬▬	naraque______ (~naraque@p23177-ipngn6501marunouchi.tokyo.ocn.ne.jp) has quit (Ping timeout: 252 seconds)
+2014-03-09 22:27:31	▬▬▶	randomclown (~randomclo@unaffiliated/randomclown) has joined #haskell
+2014-03-09 22:27:33	◀▬▬	Null_A (~null_a@173-164-196-202-SFBA.hfc.comcastbusiness.net) has quit (Read error: Connection reset by peer)
+2014-03-09 22:27:39	▬▬▶	jbauman (~jbauman@108-214-96-152.lightspeed.sntcca.sbcglobal.net) has joined #haskell
+2014-03-09 22:27:58	simon	Hermit, formally known as "Don't jinx it!"
+2014-03-09 22:28:06	◀▬▬	sski (~sski@p1149-ipngn2901hodogaya.kanagawa.ocn.ne.jp) has quit (Remote host closed the connection)
+2014-03-09 22:28:08	◀▬▬	conal (~textual@173-166-248-200-stockton.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:28:08	▬▬▶	Null_A (~null_a@173-164-196-202-SFBA.hfc.comcastbusiness.net) has joined #haskell
+2014-03-09 22:28:15	◀▬▬	conehead (~conehead@unaffiliated/conehead) has quit (Quit: Computer has gone to sleep.)
+2014-03-09 22:28:23	 *	Hermit takes note
+2014-03-09 22:28:34	▬▬▶	sski (~sski@p1149-ipngn2901hodogaya.kanagawa.ocn.ne.jp) has joined #haskell
+2014-03-09 22:28:40	Hermit	a wtf BOOM video comes to mind
+2014-03-09 22:29:41	▬▬▶	conal (~textual@173-166-248-200-stockton.hfc.comcastbusiness.net) has joined #haskell
