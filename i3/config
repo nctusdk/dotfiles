@@ -1,4 +1,4 @@
-# i3 config file (v4)
+
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 #
@@ -12,7 +12,7 @@
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 #font xft:DejaVu Sans Mono 9
-font xft:inconsolata Sans Mono 9
+font xft:Inconsolta Sans Mono 9
 # use Mouse+Mod4 to drag floating windows to their wanted position
 floating_modifier Mod4
 
@@ -23,7 +23,7 @@ client.focused #666a78 #666a78 #ffffff
 exec --no-startup-id numlockx
 exec --no-startup-id setxkbmap
 exec --no-startup-id udiskie
-exec --no-startup-id feh --bg-scale /downloads/dagnachew/wallpapers/street-graffiti-in-tokyo-world-hd-wallpaper-1920x1200.jpg
+exec --no-startup-id feh --bg-scale /downloads/dagnachew/wallpapers/white-dandelions-1920x1200.jpg
 # start a terminal
 bindsym Mod4+Return exec --no-startup-id termite
 
@@ -186,12 +186,17 @@ bindsym $mod+Pause mode "$mode_system"
 # finds out, if available)
 bar {
     #    mode hide
-        modifier Mod4
-        font xft:Inconsolta Medium 8
-        font pango:DejaVu Sans Mono, Ionicons, FontAwesome 8
-	    status_command i3status
+    #    i3bar_command i3bar-icons
+	#    status_command i3status
+        tray_output none
+        position bottom
+        mode dock
+        status_command $HOME/.i3/i3-conky-initscript.sh
+        font xft:Inconsolta Bold 10
+
+
    colors {
-	statusline	#76c2d6
+	statusline	#6e7f80
 	background	#191919
 	
   #class                 	                 border 		backgrd 	text
