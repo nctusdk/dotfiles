@@ -7,15 +7,10 @@ update_interval 5
 
 TEXT
 [\
-#{ "full_text" : ${if_mpd_playing} "♪", "color" : "\#EEE8D5", "separator" : false, #"separator_block_width" : 3 },\
-#{ "full_text" : "${mpd_artist 20} - ${mpd_title 30}"${else}""${endif}, "color" : "\#268BD2", #"min_width" : 300, "separator" : false, "separator_block_width" : 3 },\
-# Kernel:
-#{"full_text":"ⓚ","color":"\#007FFF","separator":false,"separator_block_width":6},\
-#{"full_text":"${kernel}","color":"\#007FFF","separator":false,"separator_block_width":6},\
+{ "full_text" : ${if_mpd_playing} "♪", "color" : "\#EEE8D5", "separator" : false, "separator_block_width" : 3 },\
+{ "full_text" : "${mpd_artist 20} - ${mpd_title 30}"${else}""${endif}, "color" : "\#268BD2", "min_width" : 300, "separator" : false, "separator_block_width" : 3 },\
 # File system
-{"full_text":"  root","color":"\#268BD2","separator":false,"separator_block_width":6},\
-{"full_text":"${fs_free /}","color":"\#808080","separator":false,"separator_block_width":6},\
-{"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
+
 
 {"full_text":"  downloads","color":"\#268BD2","separator":false,"separator_block_width":6},\
 {"full_text":"${fs_free /downloads}","color":"\#808080","separator":false,"separator_block_width":6},\
@@ -25,6 +20,9 @@ TEXT
 {"full_text":"${fs_free /data}","color":"\#808080","separator":false,"separator_block_width":6},\
 {"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
 
+{"full_text":"  root","color":"\#268BD2","separator":false,"separator_block_width":6},\
+{"full_text":"${fs_free /}","color":"\#808080","separator":false,"separator_block_width":6},\
+{"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
 
 # Network
 {"full_text":"  ","color":"\#859900","separator":true,"separator_block_width":6},\
