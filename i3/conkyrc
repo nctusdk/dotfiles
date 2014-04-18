@@ -12,17 +12,17 @@ TEXT
 # File system
 
 
-{"full_text":"  downloads","color":"\#268BD2","separator":false,"separator_block_width":6},\
+{"full_text":"  downloads","color":"\#CB4B16","separator":false,"separator_block_width":6},\
 {"full_text":"${fs_free /downloads}","color":"\#808080","separator":false,"separator_block_width":6},\
-{"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
+{"full_text":"","color":"\#CB4B16","separator":true,"separator_block_width":10},\
 
-{"full_text":"  data","color":"\#268BD2","separator":false,"separator_block_width":6},\
+{"full_text":"  data","color":"\#B58900","separator":false,"separator_block_width":6},\
 {"full_text":"${fs_free /data}","color":"\#808080","separator":false,"separator_block_width":6},\
-{"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
+{"full_text":"","color":"\#B58900","separator":true,"separator_block_width":10},\
 
-{"full_text":"  root","color":"\#268BD2","separator":false,"separator_block_width":6},\
+{"full_text":"  root","color":"\#678CB1","separator":false,"separator_block_width":6},\
 {"full_text":"${fs_free /}","color":"\#808080","separator":false,"separator_block_width":6},\
-{"full_text":"","color":"\#268BD2","separator":true,"separator_block_width":10},\
+{"full_text":"","color":"\#678CB1","separator":true,"separator_block_width":10},\
 
 # Network
 { "full_text" : "\
@@ -47,7 +47,7 @@ ${endif}\
 {"full_text":"${if_match ${hwmon temp 1}>=55}${hwmon temp 1}","color":"\#FF3333","separator":false,"separator_block_width":0},\
 {"full_text":"${else}"},\
 {"full_text":"${endif}${endif}${endif}${endif}"},\
-{"full_text":"°C","color":"\#EEEEEE","separator":true,"separator_block_width":6},\
+{"full_text":"°C","color":"\#EEEEEE","separator":true,"separator_block_width":7},\
 
 # Memory:
 {"full_text":" MEM","color":"\#DC322F","separator":false,"separator_block_width":6},\
