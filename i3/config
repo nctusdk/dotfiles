@@ -1,4 +1,3 @@
-
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 #
@@ -12,7 +11,8 @@
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 #font xft:DejaVu Sans Mono 9
-font xft:Inconsolta Sans Mono 9
+#font xft:Inconsolta Sans Mono 9
+font xft:hermit 9
 # use Mouse+Mod4 to drag floating windows to their wanted position
 floating_modifier Mod4
 
